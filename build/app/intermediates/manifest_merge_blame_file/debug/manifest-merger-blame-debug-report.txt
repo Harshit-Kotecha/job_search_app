@@ -1,0 +1,927 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.job_search_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/home/auriga/Desktop/flutter/job_search_app/android/app/src/debug/AndroidManifest.xml:6:5-66
+15-->/home/auriga/Desktop/flutter/job_search_app/android/app/src/debug/AndroidManifest.xml:6:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+16-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:26:5-79
+16-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:26:22-76
+17    <permission
+17-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:7:5-9:47
+18        android:name="com.example.job_search_app.permission.C2D_MESSAGE"
+18-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:8:9-63
+19        android:protectionLevel="signature" />
+19-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:9:9-44
+20
+21    <uses-permission android:name="com.example.job_search_app.permission.C2D_MESSAGE" /> <!-- OneSignal SDK has runtime checks Android version. -->
+21-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:11:5-79
+21-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:11:22-76
+22    <!-- <uses-sdk tools:overrideLibrary="android.support.customtabs"/> -->
+23    <!-- Required runtime permission to display notifications on Android 13 -->
+24    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- c2dm RECEIVE are basic requirements for push messages through Google's FCM -->
+24-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:16:5-77
+24-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:16:22-74
+25    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
+25-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:18:5-82
+25-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:18:22-79
+26    <uses-permission android:name="android.permission.WAKE_LOCK" />
+26-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:19:5-68
+26-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:19:22-65
+27    <!--
+28 Required so the device vibrates on receiving a push notification.
+29         Vibration settings of the device still apply.
+30    -->
+31    <uses-permission android:name="android.permission.VIBRATE" />
+31-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:24:5-66
+31-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:24:22-63
+32    <!--
+33 Use to restore notifications the user hasn't interacted with.
+34         They could be missed notifications if the user reboots their device if this isn't in place.
+35    -->
+36    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+36-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:30:5-81
+36-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:30:22-78
+37    <!-- Samsung -->
+38    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+38-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:32:5-86
+38-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:32:22-83
+39    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+39-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:33:5-87
+39-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:33:22-84
+40    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+40-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:34:5-81
+40-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:34:22-78
+41    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+41-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:35:5-83
+41-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:35:22-80
+42    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+42-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:36:5-88
+42-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:36:22-85
+43    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+43-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:37:5-92
+43-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:37:22-89
+44    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+44-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:38:5-84
+44-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:38:22-81
+45    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+45-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:39:5-83
+45-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:39:22-80
+46    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+46-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:40:5-91
+46-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:40:22-88
+47    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+47-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:41:5-92
+47-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:41:22-89
+48    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+48-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:42:5-93
+48-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:42:22-90
+49    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+49-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:43:5-73
+49-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:43:22-70
+50    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+50-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:44:5-82
+50-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:44:22-79
+51    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+51-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:45:5-83
+51-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:45:22-80
+52    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+52-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:46:5-88
+52-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:46:22-85
+53    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+53-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:47:5-89
+53-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:47:22-86
+54    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+54-->[com.google.android.gms:play-services-measurement-api:21.3.0] /home/auriga/.gradle/caches/transforms-3/942cd2e7fa35d32dd19cfbbed446dd6c/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:25:5-79
+54-->[com.google.android.gms:play-services-measurement-api:21.3.0] /home/auriga/.gradle/caches/transforms-3/942cd2e7fa35d32dd19cfbbed446dd6c/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:25:22-76
+55
+56    <queries>
+56-->[com.facebook.android:facebook-common:16.0.1] /home/auriga/.gradle/caches/transforms-3/03b3fd64425474bc2117d38600c3c034/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:17:5-19:15
+57        <package android:name="com.facebook.katana" />
+57-->[com.facebook.android:facebook-common:16.0.1] /home/auriga/.gradle/caches/transforms-3/03b3fd64425474bc2117d38600c3c034/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:18:9-55
+57-->[com.facebook.android:facebook-common:16.0.1] /home/auriga/.gradle/caches/transforms-3/03b3fd64425474bc2117d38600c3c034/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:18:18-52
+58    </queries>
+59
+60    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+60-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+60-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+61    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+61-->[com.google.android.gms:play-services-measurement:21.3.0] /home/auriga/.gradle/caches/transforms-3/dbcd5d930b5064bb5e626e99da0814d2/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:26:5-110
+61-->[com.google.android.gms:play-services-measurement:21.3.0] /home/auriga/.gradle/caches/transforms-3/dbcd5d930b5064bb5e626e99da0814d2/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:26:22-107
+62
+63    <permission
+63-->[androidx.core:core:1.10.1] /home/auriga/.gradle/caches/transforms-3/5d9762c5b352ad9cd85939db304ee129/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+64        android:name="com.example.job_search_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+64-->[androidx.core:core:1.10.1] /home/auriga/.gradle/caches/transforms-3/5d9762c5b352ad9cd85939db304ee129/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+65        android:protectionLevel="signature" />
+65-->[androidx.core:core:1.10.1] /home/auriga/.gradle/caches/transforms-3/5d9762c5b352ad9cd85939db304ee129/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+66
+67    <uses-permission android:name="com.example.job_search_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+67-->[androidx.core:core:1.10.1] /home/auriga/.gradle/caches/transforms-3/5d9762c5b352ad9cd85939db304ee129/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+67-->[androidx.core:core:1.10.1] /home/auriga/.gradle/caches/transforms-3/5d9762c5b352ad9cd85939db304ee129/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+68
+69    <application
+70        android:name="android.app.Application"
+71        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+71-->[androidx.core:core:1.10.1] /home/auriga/.gradle/caches/transforms-3/5d9762c5b352ad9cd85939db304ee129/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+72        android:debuggable="true"
+73        android:icon="@mipmap/launcher_icon"
+74        android:label="Jobizz"
+75        android:supportsRtl="true" >
+75-->[com.facebook.android:facebook-android-sdk:8.2.0] /home/auriga/.gradle/caches/transforms-3/63b770a942220b86ddb930e190216b21/transformed/jetified-facebook-android-sdk-8.2.0/AndroidManifest.xml:28:18-44
+76        <activity
+77            android:name="com.example.job_search_app.MainActivity"
+78            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+79            android:exported="true"
+80            android:hardwareAccelerated="true"
+81            android:launchMode="singleTop"
+82            android:theme="@style/LaunchTheme"
+83            android:windowSoftInputMode="adjustResize" >
+84
+85            <!--
+86                 Specifies an Android theme to apply to this Activity as soon as
+87                 the Android process has started. This theme is visible to the user
+88                 while the Flutter UI initializes. After that, this theme continues
+89                 to determine the Window background behind the Flutter UI.
+90            -->
+91            <meta-data
+92                android:name="io.flutter.embedding.android.NormalTheme"
+93                android:resource="@style/NormalTheme" />
+94
+95            <intent-filter>
+96                <action android:name="android.intent.action.MAIN" />
+97
+98                <category android:name="android.intent.category.LAUNCHER" />
+99            </intent-filter>
+100        </activity>
+101        <!--
+102             Don't delete the meta-data below.
+103             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+104        -->
+105        <meta-data
+106            android:name="flutterEmbedding"
+107            android:value="2" />
+108
+109        <service
+109-->[:firebase_auth] /home/auriga/Desktop/flutter/job_search_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+110            android:name="com.google.firebase.components.ComponentDiscoveryService"
+110-->[:firebase_auth] /home/auriga/Desktop/flutter/job_search_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+111            android:directBootAware="true"
+111-->[com.google.firebase:firebase-common:20.3.3] /home/auriga/.gradle/caches/transforms-3/a914b292dd189934224391a32203a896/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
+112            android:exported="false" >
+112-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:68:13-37
+113            <meta-data
+113-->[:firebase_auth] /home/auriga/Desktop/flutter/job_search_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+114                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+114-->[:firebase_auth] /home/auriga/Desktop/flutter/job_search_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[:firebase_auth] /home/auriga/Desktop/flutter/job_search_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+116            <meta-data
+116-->[:cloud_firestore] /home/auriga/Desktop/flutter/job_search_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+117                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+117-->[:cloud_firestore] /home/auriga/Desktop/flutter/job_search_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[:cloud_firestore] /home/auriga/Desktop/flutter/job_search_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+119            <meta-data
+119-->[:firebase_core] /home/auriga/Desktop/flutter/job_search_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+120                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+120-->[:firebase_core] /home/auriga/Desktop/flutter/job_search_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[:firebase_core] /home/auriga/Desktop/flutter/job_search_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:69:13-71:85
+123                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+123-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:70:17-109
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:71:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-messaging:23.2.0] /home/auriga/.gradle/caches/transforms-3/9f7483360b5a1e320004663c27f2c922/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:55:13-57:85
+126                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+126-->[com.google.firebase:firebase-messaging:23.2.0] /home/auriga/.gradle/caches/transforms-3/9f7483360b5a1e320004663c27f2c922/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:56:17-119
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-messaging:23.2.0] /home/auriga/.gradle/caches/transforms-3/9f7483360b5a1e320004663c27f2c922/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:57:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-datatransport:18.1.7] /home/auriga/.gradle/caches/transforms-3/2826062856540e62990ecd2042cf2d6e/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+129                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+129-->[com.google.firebase:firebase-datatransport:18.1.7] /home/auriga/.gradle/caches/transforms-3/2826062856540e62990ecd2042cf2d6e/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-datatransport:18.1.7] /home/auriga/.gradle/caches/transforms-3/2826062856540e62990ecd2042cf2d6e/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-firestore:24.7.0] /home/auriga/.gradle/caches/transforms-3/ded32e3a3e7e2818bd860f1cf2781169/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:19:13-21:85
+132                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+132-->[com.google.firebase:firebase-firestore:24.7.0] /home/auriga/.gradle/caches/transforms-3/ded32e3a3e7e2818bd860f1cf2781169/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:20:17-111
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-firestore:24.7.0] /home/auriga/.gradle/caches/transforms-3/ded32e3a3e7e2818bd860f1cf2781169/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:21:17-82
+134            <meta-data
+134-->[com.google.android.gms:play-services-measurement-api:21.3.0] /home/auriga/.gradle/caches/transforms-3/942cd2e7fa35d32dd19cfbbed446dd6c/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:31:13-33:85
+135                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+135-->[com.google.android.gms:play-services-measurement-api:21.3.0] /home/auriga/.gradle/caches/transforms-3/942cd2e7fa35d32dd19cfbbed446dd6c/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:32:17-139
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.android.gms:play-services-measurement-api:21.3.0] /home/auriga/.gradle/caches/transforms-3/942cd2e7fa35d32dd19cfbbed446dd6c/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:33:17-82
+137            <meta-data
+137-->[com.google.firebase:firebase-installations:17.1.3] /home/auriga/.gradle/caches/transforms-3/ebc2f5e6a7db57d283e1b2cb00734a28/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+138                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+138-->[com.google.firebase:firebase-installations:17.1.3] /home/auriga/.gradle/caches/transforms-3/ebc2f5e6a7db57d283e1b2cb00734a28/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-installations:17.1.3] /home/auriga/.gradle/caches/transforms-3/ebc2f5e6a7db57d283e1b2cb00734a28/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+140        </service>
+141
+142        <activity
+142-->[:url_launcher_android] /home/auriga/Desktop/flutter/job_search_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+143            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+143-->[:url_launcher_android] /home/auriga/Desktop/flutter/job_search_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+144            android:exported="false"
+144-->[:url_launcher_android] /home/auriga/Desktop/flutter/job_search_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+145            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+145-->[:url_launcher_android] /home/auriga/Desktop/flutter/job_search_app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+146        <activity
+146-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:29:9-46:20
+147            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+147-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:30:13-80
+148            android:excludeFromRecents="true"
+148-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:31:13-46
+149            android:exported="true"
+149-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:32:13-36
+150            android:launchMode="singleTask"
+150-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:33:13-44
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+151-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:34:13-72
+152            <intent-filter>
+152-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:35:13-45:29
+153                <action android:name="android.intent.action.VIEW" />
+153-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:36:17-69
+153-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:36:25-66
+154
+155                <category android:name="android.intent.category.DEFAULT" />
+155-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:17-76
+155-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:27-73
+156                <category android:name="android.intent.category.BROWSABLE" />
+156-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:17-78
+156-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:27-75
+157
+158                <data
+158-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:41:17-44:51
+159                    android:host="firebase.auth"
+159-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:42:21-49
+160                    android:path="/"
+160-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:43:21-37
+161                    android:scheme="genericidp" />
+161-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:44:21-48
+162            </intent-filter>
+163        </activity>
+164        <activity
+164-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:47:9-64:20
+165            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+165-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:48:13-79
+166            android:excludeFromRecents="true"
+166-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:49:13-46
+167            android:exported="true"
+167-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:50:13-36
+168            android:launchMode="singleTask"
+168-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:51:13-44
+169            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+169-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:52:13-72
+170            <intent-filter>
+170-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:53:13-63:29
+171                <action android:name="android.intent.action.VIEW" />
+171-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:36:17-69
+171-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:36:25-66
+172
+173                <category android:name="android.intent.category.DEFAULT" />
+173-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:17-76
+173-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:27-73
+174                <category android:name="android.intent.category.BROWSABLE" />
+174-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:17-78
+174-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:27-75
+175
+176                <data
+176-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:41:17-44:51
+177                    android:host="firebase.auth"
+177-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:42:21-49
+178                    android:path="/"
+178-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:43:21-37
+179                    android:scheme="recaptcha" />
+179-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:44:21-48
+180            </intent-filter>
+181        </activity>
+182
+183        <receiver
+183-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:50:9-61:20
+184            android:name="com.onesignal.FCMBroadcastReceiver"
+184-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:51:13-62
+185            android:exported="true"
+185-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:52:13-36
+186            android:permission="com.google.android.c2dm.permission.SEND" >
+186-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:53:13-73
+187
+188            <!-- High priority so OneSignal payloads can be filtered from other FCM receivers -->
+189            <intent-filter android:priority="999" >
+189-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:56:13-60:29
+189-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:56:28-50
+190                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+190-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:57:17-81
+190-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:57:25-78
+191
+192                <category android:name="com.example.job_search_app" />
+192-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:59:17-61
+192-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:59:27-58
+193            </intent-filter>
+194        </receiver>
+195
+196        <service
+196-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:63:9-69:19
+197            android:name="com.onesignal.HmsMessageServiceOneSignal"
+197-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:64:13-68
+198            android:exported="false" >
+198-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:65:13-37
+199            <intent-filter>
+199-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:66:13-68:29
+200                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+200-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:67:17-81
+200-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:67:25-78
+201            </intent-filter>
+202        </service>
+203
+204        <activity
+204-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:71:9-79:20
+205            android:name="com.onesignal.NotificationOpenedActivityHMS"
+205-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:72:13-71
+206            android:exported="true"
+206-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:73:13-36
+207            android:noHistory="true"
+207-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:74:13-37
+208            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+208-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:75:13-72
+209            <intent-filter>
+209-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:76:13-78:29
+210                <action android:name="android.intent.action.VIEW" />
+210-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:36:17-69
+210-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:36:25-66
+211            </intent-filter>
+212        </activity>
+213
+214        <service
+214-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:81:9-83:40
+215            android:name="com.onesignal.FCMIntentService"
+215-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:82:13-58
+216            android:exported="false" />
+216-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:83:13-37
+217        <service
+217-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:84:9-87:72
+218            android:name="com.onesignal.FCMIntentJobService"
+218-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:85:13-61
+219            android:exported="false"
+219-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:86:13-37
+220            android:permission="android.permission.BIND_JOB_SERVICE" />
+220-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:87:13-69
+221        <service
+221-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:88:9-91:43
+222            android:name="com.onesignal.SyncService"
+222-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:89:13-53
+223            android:exported="false"
+223-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:90:13-37
+224            android:stopWithTask="true" />
+224-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:91:13-40
+225        <service
+225-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:92:9-95:72
+226            android:name="com.onesignal.SyncJobService"
+226-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:93:13-56
+227            android:exported="false"
+227-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:94:13-37
+228            android:permission="android.permission.BIND_JOB_SERVICE" />
+228-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:95:13-69
+229
+230        <activity
+230-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:97:9-100:75
+231            android:name="com.onesignal.PermissionsActivity"
+231-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:98:13-61
+232            android:exported="false"
+232-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:99:13-37
+233            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+233-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:100:13-72
+234
+235        <receiver
+235-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:102:9-104:39
+236            android:name="com.onesignal.NotificationDismissReceiver"
+236-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:103:13-69
+237            android:exported="true" />
+237-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:104:13-36
+238        <receiver
+238-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:105:9-112:20
+239            android:name="com.onesignal.BootUpReceiver"
+239-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:106:13-56
+240            android:exported="true" >
+240-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:107:13-36
+241            <intent-filter>
+241-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:108:13-111:29
+242                <action android:name="android.intent.action.BOOT_COMPLETED" />
+242-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:109:17-79
+242-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:109:25-76
+243                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+243-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:110:17-82
+243-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:110:25-79
+244            </intent-filter>
+245        </receiver>
+246        <receiver
+246-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:113:9-119:20
+247            android:name="com.onesignal.UpgradeReceiver"
+247-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:114:13-57
+248            android:exported="true" >
+248-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:115:13-36
+249            <intent-filter>
+249-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:116:13-118:29
+250                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+250-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:117:17-84
+250-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:117:25-81
+251            </intent-filter>
+252        </receiver>
+253
+254        <activity
+254-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:121:9-127:75
+255            android:name="com.onesignal.NotificationOpenedReceiver"
+255-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:122:13-68
+256            android:excludeFromRecents="true"
+256-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:123:13-46
+257            android:exported="true"
+257-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:124:13-36
+258            android:noHistory="true"
+258-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:125:13-37
+259            android:taskAffinity=""
+259-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:126:13-36
+260            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+260-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:127:13-72
+261        <activity
+261-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:128:9-133:75
+262            android:name="com.onesignal.NotificationOpenedReceiverAndroid22AndOlder"
+262-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:129:13-85
+263            android:excludeFromRecents="true"
+263-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:130:13-46
+264            android:exported="true"
+264-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:131:13-36
+265            android:noHistory="true"
+265-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:132:13-37
+266            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+266-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:133:13-72
+267
+268        <uses-library
+268-->[androidx.window:window:1.0.0-beta04] /home/auriga/.gradle/caches/transforms-3/c6bbfa0145e3aa503f9facdf0386aa1b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+269            android:name="androidx.window.extensions"
+269-->[androidx.window:window:1.0.0-beta04] /home/auriga/.gradle/caches/transforms-3/c6bbfa0145e3aa503f9facdf0386aa1b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+270            android:required="false" />
+270-->[androidx.window:window:1.0.0-beta04] /home/auriga/.gradle/caches/transforms-3/c6bbfa0145e3aa503f9facdf0386aa1b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+271        <uses-library
+271-->[androidx.window:window:1.0.0-beta04] /home/auriga/.gradle/caches/transforms-3/c6bbfa0145e3aa503f9facdf0386aa1b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+272            android:name="androidx.window.sidecar"
+272-->[androidx.window:window:1.0.0-beta04] /home/auriga/.gradle/caches/transforms-3/c6bbfa0145e3aa503f9facdf0386aa1b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+273            android:required="false" />
+273-->[androidx.window:window:1.0.0-beta04] /home/auriga/.gradle/caches/transforms-3/c6bbfa0145e3aa503f9facdf0386aa1b/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+274
+275        <receiver
+275-->[com.google.firebase:firebase-messaging:23.2.0] /home/auriga/.gradle/caches/transforms-3/9f7483360b5a1e320004663c27f2c922/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:31:9-38:20
+276            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+276-->[com.google.firebase:firebase-messaging:23.2.0] /home/auriga/.gradle/caches/transforms-3/9f7483360b5a1e320004663c27f2c922/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:32:13-78
+277            android:exported="true"
+277-->[com.google.firebase:firebase-messaging:23.2.0] /home/auriga/.gradle/caches/transforms-3/9f7483360b5a1e320004663c27f2c922/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:33:13-36
+278            android:permission="com.google.android.c2dm.permission.SEND" >
+278-->[com.google.firebase:firebase-messaging:23.2.0] /home/auriga/.gradle/caches/transforms-3/9f7483360b5a1e320004663c27f2c922/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:34:13-73
+279            <intent-filter>
+279-->[com.google.firebase:firebase-messaging:23.2.0] /home/auriga/.gradle/caches/transforms-3/9f7483360b5a1e320004663c27f2c922/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:35:13-37:29
+280                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+280-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:57:17-81
+280-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:57:25-78
+281            </intent-filter>
+282        </receiver>
+283        <!--
+284             FirebaseMessagingService performs security checks at runtime,
+285             but set to not exported to explicitly avoid allowing another app to call it.
+286        -->
+287        <service
+287-->[com.google.firebase:firebase-messaging:23.2.0] /home/auriga/.gradle/caches/transforms-3/9f7483360b5a1e320004663c27f2c922/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:44:9-51:19
+288            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+288-->[com.google.firebase:firebase-messaging:23.2.0] /home/auriga/.gradle/caches/transforms-3/9f7483360b5a1e320004663c27f2c922/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:45:13-82
+289            android:directBootAware="true"
+289-->[com.google.firebase:firebase-messaging:23.2.0] /home/auriga/.gradle/caches/transforms-3/9f7483360b5a1e320004663c27f2c922/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:46:13-43
+290            android:exported="false" >
+290-->[com.google.firebase:firebase-messaging:23.2.0] /home/auriga/.gradle/caches/transforms-3/9f7483360b5a1e320004663c27f2c922/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:47:13-37
+291            <intent-filter android:priority="-500" >
+291-->[com.google.firebase:firebase-messaging:23.2.0] /home/auriga/.gradle/caches/transforms-3/9f7483360b5a1e320004663c27f2c922/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:48:13-50:29
+291-->[com.google.firebase:firebase-messaging:23.2.0] /home/auriga/.gradle/caches/transforms-3/9f7483360b5a1e320004663c27f2c922/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:48:28-51
+292                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+292-->[com.google.firebase:firebase-messaging:23.2.0] /home/auriga/.gradle/caches/transforms-3/9f7483360b5a1e320004663c27f2c922/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:49:17-78
+292-->[com.google.firebase:firebase-messaging:23.2.0] /home/auriga/.gradle/caches/transforms-3/9f7483360b5a1e320004663c27f2c922/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:49:25-75
+293            </intent-filter>
+294        </service>
+295        <service
+295-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/auriga/.gradle/caches/transforms-3/ad780e841e530a09b7cacaaab11b6162/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+296            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+296-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/auriga/.gradle/caches/transforms-3/ad780e841e530a09b7cacaaab11b6162/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+297            android:exported="false" >
+297-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/auriga/.gradle/caches/transforms-3/ad780e841e530a09b7cacaaab11b6162/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+298            <meta-data
+298-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/auriga/.gradle/caches/transforms-3/ad780e841e530a09b7cacaaab11b6162/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+299                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+299-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/auriga/.gradle/caches/transforms-3/ad780e841e530a09b7cacaaab11b6162/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+300                android:value="cct" />
+300-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/auriga/.gradle/caches/transforms-3/ad780e841e530a09b7cacaaab11b6162/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+301        </service>
+302        <service
+302-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/auriga/.gradle/caches/transforms-3/0f2a6a3c6eaf342d3ca30c871e55076a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+303            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+303-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/auriga/.gradle/caches/transforms-3/0f2a6a3c6eaf342d3ca30c871e55076a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+304            android:exported="false"
+304-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/auriga/.gradle/caches/transforms-3/0f2a6a3c6eaf342d3ca30c871e55076a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+305            android:permission="android.permission.BIND_JOB_SERVICE" >
+305-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/auriga/.gradle/caches/transforms-3/0f2a6a3c6eaf342d3ca30c871e55076a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+306        </service>
+307
+308        <receiver
+308-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/auriga/.gradle/caches/transforms-3/0f2a6a3c6eaf342d3ca30c871e55076a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+309            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+309-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/auriga/.gradle/caches/transforms-3/0f2a6a3c6eaf342d3ca30c871e55076a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+310            android:exported="false" />
+310-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/auriga/.gradle/caches/transforms-3/0f2a6a3c6eaf342d3ca30c871e55076a/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+311
+312        <provider
+312-->[com.google.firebase:firebase-common:20.3.3] /home/auriga/.gradle/caches/transforms-3/a914b292dd189934224391a32203a896/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+313            android:name="com.google.firebase.provider.FirebaseInitProvider"
+313-->[com.google.firebase:firebase-common:20.3.3] /home/auriga/.gradle/caches/transforms-3/a914b292dd189934224391a32203a896/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+314            android:authorities="com.example.job_search_app.firebaseinitprovider"
+314-->[com.google.firebase:firebase-common:20.3.3] /home/auriga/.gradle/caches/transforms-3/a914b292dd189934224391a32203a896/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+315            android:directBootAware="true"
+315-->[com.google.firebase:firebase-common:20.3.3] /home/auriga/.gradle/caches/transforms-3/a914b292dd189934224391a32203a896/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+316            android:exported="false"
+316-->[com.google.firebase:firebase-common:20.3.3] /home/auriga/.gradle/caches/transforms-3/a914b292dd189934224391a32203a896/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+317            android:initOrder="100" />
+317-->[com.google.firebase:firebase-common:20.3.3] /home/auriga/.gradle/caches/transforms-3/a914b292dd189934224391a32203a896/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+318
+319        <activity
+319-->[com.facebook.android:facebook-common:16.0.1] /home/auriga/.gradle/caches/transforms-3/03b3fd64425474bc2117d38600c3c034/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:22:9-25:66
+320            android:name="com.facebook.FacebookActivity"
+320-->[com.facebook.android:facebook-common:16.0.1] /home/auriga/.gradle/caches/transforms-3/03b3fd64425474bc2117d38600c3c034/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:23:13-57
+321            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+321-->[com.facebook.android:facebook-common:16.0.1] /home/auriga/.gradle/caches/transforms-3/03b3fd64425474bc2117d38600c3c034/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:24:13-96
+322            android:theme="@style/com_facebook_activity_theme" />
+322-->[com.facebook.android:facebook-common:16.0.1] /home/auriga/.gradle/caches/transforms-3/03b3fd64425474bc2117d38600c3c034/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:25:13-63
+323        <activity android:name="com.facebook.CustomTabMainActivity" />
+323-->[com.facebook.android:facebook-common:16.0.1] /home/auriga/.gradle/caches/transforms-3/03b3fd64425474bc2117d38600c3c034/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:26:9-71
+323-->[com.facebook.android:facebook-common:16.0.1] /home/auriga/.gradle/caches/transforms-3/03b3fd64425474bc2117d38600c3c034/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:26:19-68
+324        <activity
+324-->[com.facebook.android:facebook-common:16.0.1] /home/auriga/.gradle/caches/transforms-3/03b3fd64425474bc2117d38600c3c034/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:27:9-41:20
+325            android:name="com.facebook.CustomTabActivity"
+325-->[com.facebook.android:facebook-common:16.0.1] /home/auriga/.gradle/caches/transforms-3/03b3fd64425474bc2117d38600c3c034/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:28:13-58
+326            android:exported="true" >
+326-->[com.facebook.android:facebook-common:16.0.1] /home/auriga/.gradle/caches/transforms-3/03b3fd64425474bc2117d38600c3c034/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:29:13-36
+327            <intent-filter>
+327-->[com.facebook.android:facebook-common:16.0.1] /home/auriga/.gradle/caches/transforms-3/03b3fd64425474bc2117d38600c3c034/transformed/jetified-facebook-common-16.0.1/AndroidManifest.xml:31:13-40:29
+328                <action android:name="android.intent.action.VIEW" />
+328-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:36:17-69
+328-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:36:25-66
+329
+330                <category android:name="android.intent.category.DEFAULT" />
+330-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:17-76
+330-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:27-73
+331                <category android:name="android.intent.category.BROWSABLE" />
+331-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:17-78
+331-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:27-75
+332
+333                <data
+333-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:41:17-44:51
+334                    android:host="cct.com.example.job_search_app"
+334-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:42:21-49
+335                    android:scheme="fbconnect" />
+335-->[com.google.firebase:firebase-auth:22.1.0] /home/auriga/.gradle/caches/transforms-3/d58d1e01c50658442131000e267bf6d5/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:44:21-48
+336            </intent-filter>
+337        </activity>
+338
+339        <provider
+339-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+340            android:name="androidx.startup.InitializationProvider"
+340-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+341            android:authorities="com.example.job_search_app.androidx-startup"
+341-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+342            android:exported="false" >
+342-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+343            <meta-data
+343-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+344                android:name="androidx.work.WorkManagerInitializer"
+344-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+345                android:value="androidx.startup" />
+345-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+346        </provider>
+347
+348        <service
+348-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+349            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+349-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+350            android:directBootAware="false"
+350-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+351            android:enabled="@bool/enable_system_alarm_service_default"
+351-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+352            android:exported="false" />
+352-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+353        <service
+353-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+354            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+354-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+355            android:directBootAware="false"
+355-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+356            android:enabled="@bool/enable_system_job_service_default"
+356-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+357            android:exported="true"
+357-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+358            android:permission="android.permission.BIND_JOB_SERVICE" />
+358-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+359        <service
+359-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+360            android:name="androidx.work.impl.foreground.SystemForegroundService"
+360-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+361            android:directBootAware="false"
+361-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+362            android:enabled="@bool/enable_system_foreground_service_default"
+362-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+363            android:exported="false" />
+363-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+364
+365        <receiver
+365-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+366            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+366-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+367            android:directBootAware="false"
+367-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+368            android:enabled="true"
+368-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+369            android:exported="false" />
+369-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+370        <receiver
+370-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+371            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+371-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+372            android:directBootAware="false"
+372-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+373            android:enabled="false"
+373-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+374            android:exported="false" >
+374-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+375            <intent-filter>
+375-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+376                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+376-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+376-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+377                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+377-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+377-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+378            </intent-filter>
+379        </receiver>
+380        <receiver
+380-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+381            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+381-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+382            android:directBootAware="false"
+382-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+383            android:enabled="false"
+383-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+384            android:exported="false" >
+384-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+385            <intent-filter>
+385-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+386                <action android:name="android.intent.action.BATTERY_OKAY" />
+386-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+386-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+387                <action android:name="android.intent.action.BATTERY_LOW" />
+387-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+387-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+388            </intent-filter>
+389        </receiver>
+390        <receiver
+390-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+391            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+391-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+392            android:directBootAware="false"
+392-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+393            android:enabled="false"
+393-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+394            android:exported="false" >
+394-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+395            <intent-filter>
+395-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+396                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+396-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+396-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+397                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+397-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+397-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+398            </intent-filter>
+399        </receiver>
+400        <receiver
+400-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+401            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+401-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+402            android:directBootAware="false"
+402-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+403            android:enabled="false"
+403-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+404            android:exported="false" >
+404-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+405            <intent-filter>
+405-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+406                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+406-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+406-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+407            </intent-filter>
+408        </receiver>
+409        <receiver
+409-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+410            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+410-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+411            android:directBootAware="false"
+411-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+412            android:enabled="false"
+412-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+413            android:exported="false" >
+413-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+414            <intent-filter>
+414-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+415                <action android:name="android.intent.action.BOOT_COMPLETED" />
+415-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:109:17-79
+415-->[com.onesignal:OneSignal:4.8.5] /home/auriga/.gradle/caches/transforms-3/b08118c3f88243196cc776050a914f64/transformed/jetified-OneSignal-4.8.5/AndroidManifest.xml:109:25-76
+416                <action android:name="android.intent.action.TIME_SET" />
+416-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+416-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+417                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+417-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+417-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+418            </intent-filter>
+419        </receiver>
+420        <receiver
+420-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+421            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+421-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+422            android:directBootAware="false"
+422-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+423            android:enabled="@bool/enable_system_alarm_service_default"
+423-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+424            android:exported="false" >
+424-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+425            <intent-filter>
+425-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+426                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+426-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+426-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+427            </intent-filter>
+428        </receiver>
+429        <receiver
+429-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+430            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+430-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+431            android:directBootAware="false"
+431-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+432            android:enabled="true"
+432-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+433            android:exported="true"
+433-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+434            android:permission="android.permission.DUMP" >
+434-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+435            <intent-filter>
+435-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+436                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+436-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+436-->[androidx.work:work-runtime:2.7.1] /home/auriga/.gradle/caches/transforms-3/13be5d58b6482caa93604747b0ff1eb2/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+437            </intent-filter>
+438        </receiver>
+439
+440        <activity
+440-->[com.google.android.gms:play-services-auth:20.6.0] /home/auriga/.gradle/caches/transforms-3/f88f1222c6ab7803babcd53656707611/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:23:9-27:75
+441            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+441-->[com.google.android.gms:play-services-auth:20.6.0] /home/auriga/.gradle/caches/transforms-3/f88f1222c6ab7803babcd53656707611/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:24:13-93
+442            android:excludeFromRecents="true"
+442-->[com.google.android.gms:play-services-auth:20.6.0] /home/auriga/.gradle/caches/transforms-3/f88f1222c6ab7803babcd53656707611/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:25:13-46
+443            android:exported="false"
+443-->[com.google.android.gms:play-services-auth:20.6.0] /home/auriga/.gradle/caches/transforms-3/f88f1222c6ab7803babcd53656707611/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:26:13-37
+444            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+444-->[com.google.android.gms:play-services-auth:20.6.0] /home/auriga/.gradle/caches/transforms-3/f88f1222c6ab7803babcd53656707611/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:27:13-72
+445        <!--
+446            Service handling Google Sign-In user revocation. For apps that do not integrate with
+447            Google Sign-In, this service will never be started.
+448        -->
+449        <service
+449-->[com.google.android.gms:play-services-auth:20.6.0] /home/auriga/.gradle/caches/transforms-3/f88f1222c6ab7803babcd53656707611/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:33:9-37:51
+450            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+450-->[com.google.android.gms:play-services-auth:20.6.0] /home/auriga/.gradle/caches/transforms-3/f88f1222c6ab7803babcd53656707611/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:34:13-89
+451            android:exported="true"
+451-->[com.google.android.gms:play-services-auth:20.6.0] /home/auriga/.gradle/caches/transforms-3/f88f1222c6ab7803babcd53656707611/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:35:13-36
+452            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+452-->[com.google.android.gms:play-services-auth:20.6.0] /home/auriga/.gradle/caches/transforms-3/f88f1222c6ab7803babcd53656707611/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:36:13-107
+453            android:visibleToInstantApps="true" />
+453-->[com.google.android.gms:play-services-auth:20.6.0] /home/auriga/.gradle/caches/transforms-3/f88f1222c6ab7803babcd53656707611/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:37:13-48
+454
+455        <activity
+455-->[com.google.android.gms:play-services-base:18.0.1] /home/auriga/.gradle/caches/transforms-3/3c4348cc6aea117098ea331e761f63d2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+456            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+456-->[com.google.android.gms:play-services-base:18.0.1] /home/auriga/.gradle/caches/transforms-3/3c4348cc6aea117098ea331e761f63d2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+457            android:exported="false"
+457-->[com.google.android.gms:play-services-base:18.0.1] /home/auriga/.gradle/caches/transforms-3/3c4348cc6aea117098ea331e761f63d2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+458            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+458-->[com.google.android.gms:play-services-base:18.0.1] /home/auriga/.gradle/caches/transforms-3/3c4348cc6aea117098ea331e761f63d2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+459
+460        <receiver
+460-->[com.google.android.gms:play-services-measurement:21.3.0] /home/auriga/.gradle/caches/transforms-3/dbcd5d930b5064bb5e626e99da0814d2/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:29:9-33:20
+461            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+461-->[com.google.android.gms:play-services-measurement:21.3.0] /home/auriga/.gradle/caches/transforms-3/dbcd5d930b5064bb5e626e99da0814d2/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:30:13-85
+462            android:enabled="true"
+462-->[com.google.android.gms:play-services-measurement:21.3.0] /home/auriga/.gradle/caches/transforms-3/dbcd5d930b5064bb5e626e99da0814d2/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:31:13-35
+463            android:exported="false" >
+463-->[com.google.android.gms:play-services-measurement:21.3.0] /home/auriga/.gradle/caches/transforms-3/dbcd5d930b5064bb5e626e99da0814d2/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:32:13-37
+464        </receiver>
+465
+466        <service
+466-->[com.google.android.gms:play-services-measurement:21.3.0] /home/auriga/.gradle/caches/transforms-3/dbcd5d930b5064bb5e626e99da0814d2/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:35:9-38:40
+467            android:name="com.google.android.gms.measurement.AppMeasurementService"
+467-->[com.google.android.gms:play-services-measurement:21.3.0] /home/auriga/.gradle/caches/transforms-3/dbcd5d930b5064bb5e626e99da0814d2/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:36:13-84
+468            android:enabled="true"
+468-->[com.google.android.gms:play-services-measurement:21.3.0] /home/auriga/.gradle/caches/transforms-3/dbcd5d930b5064bb5e626e99da0814d2/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:37:13-35
+469            android:exported="false" />
+469-->[com.google.android.gms:play-services-measurement:21.3.0] /home/auriga/.gradle/caches/transforms-3/dbcd5d930b5064bb5e626e99da0814d2/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:38:13-37
+470        <service
+470-->[com.google.android.gms:play-services-measurement:21.3.0] /home/auriga/.gradle/caches/transforms-3/dbcd5d930b5064bb5e626e99da0814d2/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:39:9-43:72
+471            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+471-->[com.google.android.gms:play-services-measurement:21.3.0] /home/auriga/.gradle/caches/transforms-3/dbcd5d930b5064bb5e626e99da0814d2/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:40:13-87
+472            android:enabled="true"
+472-->[com.google.android.gms:play-services-measurement:21.3.0] /home/auriga/.gradle/caches/transforms-3/dbcd5d930b5064bb5e626e99da0814d2/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:41:13-35
+473            android:exported="false"
+473-->[com.google.android.gms:play-services-measurement:21.3.0] /home/auriga/.gradle/caches/transforms-3/dbcd5d930b5064bb5e626e99da0814d2/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:42:13-37
+474            android:permission="android.permission.BIND_JOB_SERVICE" />
+474-->[com.google.android.gms:play-services-measurement:21.3.0] /home/auriga/.gradle/caches/transforms-3/dbcd5d930b5064bb5e626e99da0814d2/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:43:13-69
+475
+476        <meta-data
+476-->[com.google.android.gms:play-services-basement:18.2.0] /home/auriga/.gradle/caches/transforms-3/76a529fd2575ec6903312a294962425a/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+477            android:name="com.google.android.gms.version"
+477-->[com.google.android.gms:play-services-basement:18.2.0] /home/auriga/.gradle/caches/transforms-3/76a529fd2575ec6903312a294962425a/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+478            android:value="@integer/google_play_services_version" />
+478-->[com.google.android.gms:play-services-basement:18.2.0] /home/auriga/.gradle/caches/transforms-3/76a529fd2575ec6903312a294962425a/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+479        <!--
+480         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+481         with the application context. This config is merged in with the host app's manifest,
+482         but there can only be one provider with the same authority activated at any given
+483         point; so if the end user has two or more different apps that use Facebook SDK, only the
+484         first one will be able to use the provider. To work around this problem, we use the
+485         following placeholder in the authority to identify each host application as if it was
+486         a completely different provider.
+487        -->
+488        <provider
+488-->[com.facebook.android:facebook-core:16.0.1] /home/auriga/.gradle/caches/transforms-3/d115951aad3dbe3d252e540620997f79/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:29:9-32:40
+489            android:name="com.facebook.internal.FacebookInitProvider"
+489-->[com.facebook.android:facebook-core:16.0.1] /home/auriga/.gradle/caches/transforms-3/d115951aad3dbe3d252e540620997f79/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:30:13-70
+490            android:authorities="com.example.job_search_app.FacebookInitProvider"
+490-->[com.facebook.android:facebook-core:16.0.1] /home/auriga/.gradle/caches/transforms-3/d115951aad3dbe3d252e540620997f79/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:31:13-72
+491            android:exported="false" />
+491-->[com.facebook.android:facebook-core:16.0.1] /home/auriga/.gradle/caches/transforms-3/d115951aad3dbe3d252e540620997f79/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:32:13-37
+492
+493        <receiver
+493-->[com.facebook.android:facebook-core:16.0.1] /home/auriga/.gradle/caches/transforms-3/d115951aad3dbe3d252e540620997f79/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:34:9-40:20
+494            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+494-->[com.facebook.android:facebook-core:16.0.1] /home/auriga/.gradle/caches/transforms-3/d115951aad3dbe3d252e540620997f79/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:35:13-86
+495            android:exported="false" >
+495-->[com.facebook.android:facebook-core:16.0.1] /home/auriga/.gradle/caches/transforms-3/d115951aad3dbe3d252e540620997f79/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:36:13-37
+496            <intent-filter>
+496-->[com.facebook.android:facebook-core:16.0.1] /home/auriga/.gradle/caches/transforms-3/d115951aad3dbe3d252e540620997f79/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:37:13-39:29
+497                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+497-->[com.facebook.android:facebook-core:16.0.1] /home/auriga/.gradle/caches/transforms-3/d115951aad3dbe3d252e540620997f79/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:38:17-95
+497-->[com.facebook.android:facebook-core:16.0.1] /home/auriga/.gradle/caches/transforms-3/d115951aad3dbe3d252e540620997f79/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:38:25-92
+498            </intent-filter>
+499        </receiver>
+500        <receiver
+500-->[com.facebook.android:facebook-core:16.0.1] /home/auriga/.gradle/caches/transforms-3/d115951aad3dbe3d252e540620997f79/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:41:9-47:20
+501            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+501-->[com.facebook.android:facebook-core:16.0.1] /home/auriga/.gradle/caches/transforms-3/d115951aad3dbe3d252e540620997f79/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:42:13-118
+502            android:exported="false" >
+502-->[com.facebook.android:facebook-core:16.0.1] /home/auriga/.gradle/caches/transforms-3/d115951aad3dbe3d252e540620997f79/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:43:13-37
+503            <intent-filter>
+503-->[com.facebook.android:facebook-core:16.0.1] /home/auriga/.gradle/caches/transforms-3/d115951aad3dbe3d252e540620997f79/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:44:13-46:29
+504                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+504-->[com.facebook.android:facebook-core:16.0.1] /home/auriga/.gradle/caches/transforms-3/d115951aad3dbe3d252e540620997f79/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:45:17-103
+504-->[com.facebook.android:facebook-core:16.0.1] /home/auriga/.gradle/caches/transforms-3/d115951aad3dbe3d252e540620997f79/transformed/jetified-facebook-core-16.0.1/AndroidManifest.xml:45:25-100
+505            </intent-filter>
+506        </receiver>
+507
+508        <service
+508-->[androidx.room:room-runtime:2.2.5] /home/auriga/.gradle/caches/transforms-3/c3019a71597b4ab4a534e51c862554c3/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+509            android:name="androidx.room.MultiInstanceInvalidationService"
+509-->[androidx.room:room-runtime:2.2.5] /home/auriga/.gradle/caches/transforms-3/c3019a71597b4ab4a534e51c862554c3/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+510            android:directBootAware="true"
+510-->[androidx.room:room-runtime:2.2.5] /home/auriga/.gradle/caches/transforms-3/c3019a71597b4ab4a534e51c862554c3/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+511            android:exported="false" />
+511-->[androidx.room:room-runtime:2.2.5] /home/auriga/.gradle/caches/transforms-3/c3019a71597b4ab4a534e51c862554c3/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+512    </application>
+513
+514</manifest>

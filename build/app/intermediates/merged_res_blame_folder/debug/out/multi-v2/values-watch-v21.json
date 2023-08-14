@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.job_search_app-mergeDebugResources-34:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/home/auriga/.gradle/caches/transforms-3/f8b481530a4bb4f783d3430512e036e2/transformed/appcompat-1.1.0/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

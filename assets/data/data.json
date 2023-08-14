@@ -1,0 +1,1391 @@
+{
+  "search_metadata": {
+    "id": "64ce302ea5ad6d68c807c1de",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/f51e3a901b201b79/64ce302ea5ad6d68c807c1de.json",
+    "created_at": "2023-08-05 11:19:10 UTC",
+    "processed_at": "2023-08-05 11:19:10 UTC",
+    "google_jobs_url": "https://www.google.com/search?q=software&ibp=htl;jobs",
+    "raw_html_file": "https://serpapi.com/searches/f51e3a901b201b79/64ce302ea5ad6d68c807c1de.html",
+    "total_time_taken": 1.95
+  },
+  "search_parameters": {
+    "q": "software",
+    "engine": "google_jobs",
+    "google_domain": "google.com"
+  },
+  "jobs_results": [
+    {
+      "title": "Senior Software Engineer",
+      "company_name": "Walmart",
+      "location": "  Sunnyvale, CA   ",
+      "via": "via Walmart Careers",
+      "description": "Position Summary...\n\nWhat you'll do...\n\nAs a Senior Software Engineer, you’ll spend your days translating requirements into solutions, writing code, collaborating with cross-functional teams and providing us with the insights necessary to think beyond the status quo. You’ll oversee small project teams consisting of other engineers who will look to you as a trusted advisor, a subject matter expert who provides guidance and the right tools to get the job done.\n\nNow, imagine doing all the above for the world’s largest retailer. That’s the Walmart experience\n\nAbout Team:\nOn the Item and Inventory team, we ensure our customers get their orders when and where they want them, in a frictionless, predictable manner. What's more, we create reusable SaaS products and services that manage our catalog and power end-to-end inventory management, including replenishment, fulfillment, and transportation. With end-to-end inventory management, from replenishment and fulfillment to transportation, we give our drivers and partners the tools they need to get the right items to customers on time and in the right packaging.\n\nWhat you'll do:\n• Assists in providing guidance to small groups of 5 to 6 engineers, including offshore associates, for assigned Engineering projects by proving pertinent documents, directions, examples, and timeline.\n• Provides support to the business by responding to user questions, concerns, and issues (for example, technical feasibility, implementation strategies); researching and identifying needed solutions; determining implementation designs; providing guidance regarding implications of new and enhanced systems; identifying short and long term solutions; and directing users to appropriate contacts for issues outside of associate's domain.\n• Manages small to large-sized complex projects by reviewing project requirements; translating requirements into technical solutions; researching and identifying alternative solutions; determining needed solution based on return on investment and value add to the business; gathering requested information (for example, design documents, product requirements, wire frames); writing and developing code; conducting unit testing; communicating status and issues to team members and stakeholders; collaborating with project team and cross functional teams; identifying areas of opportunity; interpreting information and identifying a solution; ensuring solution is sustainable across implementation and use; troubleshooting open issues and bug-fixes; and ensuring on-time delivery and hand-offs.\n• Troubleshoots business and production issues by gathering information (for example, issue, impact, criticality, possible root cause); performing root cause analysis to reduce future issues; engaging support teams to assist in the resolution of issues; developing solutions; driving the development of an action plan; performing actions as designated in the plan; interpreting the results to determine further action; and completing online documentation.\n• Participates in the discovery phase of small to medium-sized projects to come up with high level design by partnering with the product management, project management, business, and user experience teams.\n• Demonstrates up-to-date expertise and applies this to the development, execution, and improvement of action plans by providing expert advice and guidance to others in the application of information and best practices; supporting and aligning efforts to meet customer and business needs; and building commitment for perspectives and rationales.\n• Provides and supports the implementation of business solutions by building relationships and partnerships with key stakeholders; identifying business needs; determining and carrying out necessary processes and practices; monitoring progress and results; recognizing and capitalizing on improvement opportunities; and adapting to competing demands, organizational changes, and new responsibilities.\n• Models compliance with company policies and procedures and supports company mission, values, and standards of ethics and integrity by incorporating these into the development and implementation of business plans; using the Open Door Policy; and demonstrating and assisting others with how to apply these in executing business processes and practices.\n\nWhat you'll bring:\n\nYou have and can implement big ideas with a positive attitude. You want to be a part of the team to disrupt this industry and you have these main skills:\n• Experience to interact with product, program and other stakeholders to come up with best design for any feture\n• Extensive understanding of SDLC, combined with a solid knowledge of multithreading, and performance tuning\n• Expertise in Java and SpringBoot\n• Experience with Webflux is a plus\n• Experience in developing REST API in JAVA\n• Experience in good app architecture using design patterns\n• Ability to build products with focus on testability, someone who loves test coverage (well versed with Mockito and JUnit)\n• A disciplined approach to development, code review, testing, documentation and code structure in a team environment.\n• A constant desire to improve, learn more and take things to the next level and a passion for adopting to the business requirements and change requests\n\nYou’ll really wow us if…\n• You take up extreme ownership for ensuring that feature is delivered with utmost quality in given timeframe with better performance\n• Your ability to rise above group think and see beyond the here and now is matched only by your intellectual curiosity.\n• You come to the table with a comprehensive knowledge of JAVA as well as Agile methodologies.\n• You consider yourself to be a student of the world who thrives in an ever-changing environment that holds within it new challenges and chances to prove your expertise.\n• You level up when you have the opportunity to teach others and empower those around you to excel.\n\nYou’ll make an impact by…\n• Effectively translating requirements into project parameters while working with agility from cradle to grave.\n• Helping cross-functional teams to solve for business problems and develop solutions that enable us to redefine a “best-in-class” customer experience.\n• Encouraging the project teams that you oversee to work collaboratively and to aim for insight-driven outcomes.\n\nThe above information has been designed to indicate the general nature and level of work performed in the role. It is not designed to contain or be interpreted as a comprehensive inventory of all duties, responsibilities and qualifications required of employees assigned to this job. The full Job Description can be made available as part of the hiring process.\n\nAbout Walmart Global Tech\nImagine working in an environment where one line of code can make life easier for hundreds of millions of people. That’s what we do at Walmart Global Tech. We’re a team of software engineers, data scientists, cybersecurity expert's and service professionals within the world’s leading retailer who make an epic impact and are at the forefront of the next retail disruption. People are why we innovate, and people power our innovations. We are people-led and tech-empowered. We train our team in the skillsets of the future and bring in experts like you to help us grow. We have roles for those chasing their first opportunity as well as those looking for the opportunity that will define their career. Here, you can kickstart a great career in tech, gain new skills and experience for virtually every industry, or leverage your expertise to innovate at scale, impact millions and reimagine the future of retail.\n\nFlexible, hybrid work:\nWe use a hybrid way of working that is primarily in office coupled with virtual when not onsite. Our campuses serve as a hub to enhance collaboration, bring us together for purpose and deliver on business needs. This approach helps us make quicker decisions, remove location barriers across our global team and be more flexible in our personal lives.\n\nBenefits:\nBenefits: Beyond our great compensation package, you can receive incentive awards for your performance. Other great perks include 401(k) match, stock purchase plan, paid maternity and parental leave, PTO, multiple health plans, and much more.\n\nEqual Opportunity Employer:\nWalmart, Inc. is an Equal Opportunity Employer – By Choice. We believe we are best equipped to help our associates, customers and the communities we serve live better when we really know them. That means understanding, respecting and valuing diversity- unique styles, experiences, identities, ideas and opinions – while being inclusive of all people.\n\nThe above information has been designed to indicate the general nature and level of work performed in the role. It is not designed to contain or be interpreted as a comprehensive inventory of all responsibilities and qualifications required of employees assigned to this job. The full Job Description can be made available as part of the hiring process.\n\nAt Walmart, we offer competitive pay as well as performance-based incentive awards and other great benefits for a happier mind, body, and wallet. Health benefits include medical, vision and dental coverage. Financial benefits include 401(k), stock purchase and company-paid life insurance. Paid time off benefits include PTO (including sick leave), parental leave, family care leave, bereavement, jury duty, and voting. Other benefits include short-term and long-term disability, company discounts, Military Leave Pay, adoption and surrogacy expense reimbursement, and more.\n\nYou will also receive PTO and/or PPTO that can be used for vacation, sick leave, holidays, or other purposes. The amount you receive depends on your job classification and length of employment. It will meet or exceed the requirements of paid sick leave laws, where applicable. For information about PTO, see https://one.walmart.com/notices .\n\nLive Better U is a Walmart-paid education benefit program for full-time and part-time associates in Walmart and Sam's Club facilities. Programs range from high school completion to bachelor's degrees, including English Language Learning and short-form certificates. Tuition, books, and fees are completely paid for by Walmart.\n\nEligibility requirements apply to some benefits and may depend on your job classification and length of employment. Benefits are subject to change and may be subject to a specific plan or program terms. For information about benefits and eligibility, see One.Walmart at https://bit.ly/3iOOb1J .\n\nThe annual salary range for this position is $136,000.00-$200,000.00\n\nAdditional compensation includes annual or quarterly performance incentives.\n\nAdditional compensation for certain positions may also include:\n\n- Regional Pay Zone (RPZ) (based on location)\n\n- Stock equity incentives\n\nMinimum Qualifications...\n\nOutlined below are the required minimum qualifications for this position. If none are listed, there are no minimum qualifications.\n\nOption 1: Bachelor's degree in computer science, computer engineering, computer information systems, software engineering, or related area and 3 years’ experience in software engineering or related area.Option 2: 5 years’ experience in software engineering or related area.\n\nPreferred Qualifications...\n\nOutlined below are the optional preferred qualifications for this position. If none are listed, there are no preferred qualifications.\n\nMaster’s degree in Computer Science, Computer Engineering, Computer Information Systems, Software Engineering, or related area and 1 year's experience in software engineering or related area.\n\nPrimary Location...\n840 W CALIFORNIA AVE, SUNNYVALE, CA 94086-4828, United States of America",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "You have and can implement big ideas with a positive attitude",
+            "You want to be a part of the team to disrupt this industry and you have these main skills:",
+            "Experience to interact with product, program and other stakeholders to come up with best design for any feture",
+            "Extensive understanding of SDLC, combined with a solid knowledge of multithreading, and performance tuning",
+            "Expertise in Java and SpringBoot",
+            "Experience in developing REST API in JAVA",
+            "Experience in good app architecture using design patterns",
+            "Ability to build products with focus on testability, someone who loves test coverage (well versed with Mockito and JUnit)",
+            "A disciplined approach to development, code review, testing, documentation and code structure in a team environment",
+            "A constant desire to improve, learn more and take things to the next level and a passion for adopting to the business requirements and change requests",
+            "You come to the table with a comprehensive knowledge of JAVA as well as Agile methodologies",
+            "You consider yourself to be a student of the world who thrives in an ever-changing environment that holds within it new challenges and chances to prove your expertise",
+            "Option 1: Bachelor's degree in computer science, computer engineering, computer information systems, software engineering, or related area and 3 years’ experience in software engineering or related area",
+            "Option 2: 5 years’ experience in software engineering or related area"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "As a Senior Software Engineer, you’ll spend your days translating requirements into solutions, writing code, collaborating with cross-functional teams and providing us with the insights necessary to think beyond the status quo",
+            "You’ll oversee small project teams consisting of other engineers who will look to you as a trusted advisor, a subject matter expert who provides guidance and the right tools to get the job done",
+            "What's more, we create reusable SaaS products and services that manage our catalog and power end-to-end inventory management, including replenishment, fulfillment, and transportation",
+            "With end-to-end inventory management, from replenishment and fulfillment to transportation, we give our drivers and partners the tools they need to get the right items to customers on time and in the right packaging",
+            "Assists in providing guidance to small groups of 5 to 6 engineers, including offshore associates, for assigned Engineering projects by proving pertinent documents, directions, examples, and timeline",
+            "Provides support to the business by responding to user questions, concerns, and issues (for example, technical feasibility, implementation strategies); researching and identifying needed solutions; determining implementation designs; providing guidance regarding implications of new and enhanced systems; identifying short and long term solutions; and directing users to appropriate contacts for issues outside of associate's domain",
+            "Manages small to large-sized complex projects by reviewing project requirements; translating requirements into technical solutions; researching and identifying alternative solutions; determining needed solution based on return on investment and value add to the business; gathering requested information (for example, design documents, product requirements, wire frames); writing and developing code; conducting unit testing; communicating status and issues to team members and stakeholders; collaborating with project team and cross functional teams; identifying areas of opportunity; interpreting information and identifying a solution; ensuring solution is sustainable across implementation and use; troubleshooting open issues and bug-fixes; and ensuring on-time delivery and hand-offs",
+            "Troubleshoots business and production issues by gathering information (for example, issue, impact, criticality, possible root cause); performing root cause analysis to reduce future issues; engaging support teams to assist in the resolution of issues; developing solutions; driving the development of an action plan; performing actions as designated in the plan; interpreting the results to determine further action; and completing online documentation",
+            "Participates in the discovery phase of small to medium-sized projects to come up with high level design by partnering with the product management, project management, business, and user experience teams",
+            "Demonstrates up-to-date expertise and applies this to the development, execution, and improvement of action plans by providing expert advice and guidance to others in the application of information and best practices; supporting and aligning efforts to meet customer and business needs; and building commitment for perspectives and rationales",
+            "Provides and supports the implementation of business solutions by building relationships and partnerships with key stakeholders; identifying business needs; determining and carrying out necessary processes and practices; monitoring progress and results; recognizing and capitalizing on improvement opportunities; and adapting to competing demands, organizational changes, and new responsibilities",
+            "Models compliance with company policies and procedures and supports company mission, values, and standards of ethics and integrity by incorporating these into the development and implementation of business plans; using the Open Door Policy; and demonstrating and assisting others with how to apply these in executing business processes and practices",
+            "Effectively translating requirements into project parameters while working with agility from cradle to grave",
+            "Helping cross-functional teams to solve for business problems and develop solutions that enable us to redefine a “best-in-class” customer experience",
+            "Encouraging the project teams that you oversee to work collaboratively and to aim for insight-driven outcomes",
+            "The above information has been designed to indicate the general nature and level of work performed in the role"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Benefits: Beyond our great compensation package, you can receive incentive awards for your performance",
+            "Other great perks include 401(k) match, stock purchase plan, paid maternity and parental leave, PTO, multiple health plans, and much more",
+            "At Walmart, we offer competitive pay as well as performance-based incentive awards and other great benefits for a happier mind, body, and wallet",
+            "Health benefits include medical, vision and dental coverage",
+            "Financial benefits include 401(k), stock purchase and company-paid life insurance",
+            "Paid time off benefits include PTO (including sick leave), parental leave, family care leave, bereavement, jury duty, and voting",
+            "Other benefits include short-term and long-term disability, company discounts, Military Leave Pay, adoption and surrogacy expense reimbursement, and more",
+            "You will also receive PTO and/or PPTO that can be used for vacation, sick leave, holidays, or other purposes",
+            "It will meet or exceed the requirements of paid sick leave laws, where applicable",
+            "Tuition, books, and fees are completely paid for by Walmart",
+            "The annual salary range for this position is $136,000.00-$200,000.00",
+            "Additional compensation includes annual or quarterly performance incentives",
+            "Additional compensation for certain positions may also include:",
+            "Regional Pay Zone (RPZ) (based on location)",
+            "Stock equity incentives"
+          ]
+        }
+      ],
+      "related_links": [
+        {
+          "link": "https://www.walmart.com/",
+          "text": "walmart.com"
+        },
+        {
+          "link": "https://www.google.com/search?q=Walmart&sa=X&ved=0ahUKEwjipPz1ssWAAxXeMUQIHVVwCrgQmJACCNoJ",
+          "text": "See web results for Walmart"
+        }
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM5FvH34ZOATLYnu5r4x6771B-yvvnvALrzttQHGCAW5FqQKRnaG-bXyo&s",
+      "extensions": [
+        "2 days ago",
+        "Full-time",
+        "Health insurance",
+        "Dental insurance",
+        "Paid time off"
+      ],
+      "detected_extensions": {
+        "posted_at": "2 days ago",
+        "schedule_type": "Full-time"
+      },
+      "job_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgU29mdHdhcmUgRW5naW5lZXIiLCJodGlkb2NpZCI6InltWmw2ZDdQUHNBQUFBQUFBQUFBQUE9PSIsImZjIjoiRXZjQkNyY0JRVTFyTW14c1RHVkZaekZtYVc5WVVtSnJlVXBtVlVSdmN6VnhURzlFUWpscVZtNTJWWFZQTjI4dGQzSTNYMEZSVDJwVWVEaENPR1l5TW05VFVXVnNZbEZ4TVdWb00yY3pTbVJXVjJWNk5EQkxhVFZtVDJsc05HbHhSa1ZTTVMxa2NVaFRObDlmTFhwVGMwcHZVR2h6VEMxSE9GVlVTa3R3TWxvdGEwbFRaakJXT0RaTE5UUkdNMk5JT1RCTlJURktaVmxrVkRNd1JFOXhXa2xNUlMxZmRqSk9MVFpLV1hkVk9GRk1Ubkp1ZEhJeVVVeHFhR2RCRWhkTWVrUlBXa3RNVWtZNU4ycHJVRWxRTVdWRGNIZEJjeG9pUVV4RlV6bDFUVGxpY3preGVHdGxRbVphZFhoTGR6WXljM0ptV1VkTmRHZHZadyIsImZjdiI6IjMiLCJmY19pZCI6ImZjXzEiLCJhcHBseV9saW5rIjp7InRpdGxlIjoiLm5GZzJlYntmb250LXdlaWdodDo1MDB9LkJpNkRkY3tmb250LXdlaWdodDo1MDB9QXBwbHkgb24gV2FsbWFydCBDYXJlZXJzIiwibGluayI6Imh0dHBzOi8vY2FyZWVycy53YWxtYXJ0LmNvbS91cy9qb2JzL1dEMTU5MzEwOS1zZW5pb3Itc29mdHdhcmUtZW5naW5lZXI/dXRtX2NhbXBhaWduPWdvb2dsZV9qb2JzX2FwcGx5XHUwMDI2dXRtX3NvdXJjZT1nb29nbGVfam9ic19hcHBseVx1MDAyNnV0bV9tZWRpdW09b3JnYW5pYyJ9fQ=="
+    },
+    {
+      "title": "Software Engineer III, Mobile (Android), Pixel",
+      "company_name": "Google",
+      "location": "  Mountain View, CA   ",
+      "via": "via Nexxt",
+      "description": "Minimum qualifications\n• Bachelor's degree or equivalent practical experience.\n• 2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree...\n• 2 years of experience with data structures or algorithms in either an academic or industry setting.\n\nPreferred qualifications\n• Master's degree or PhD in Computer Science or related technical field.\n• 2 years of experience with Android application development.\n• 2 years of experience with performance, large scale systems data analysis, visualization tools, and/or debugging.\n• Experience developing accessible technologies.\n\nGoogle's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google's needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.\n\nWith your technical expertise you will manage project priorities, deadlines, and deliverables. You will design, develop, test, deploy, maintain, and enhance software solutions.\n\nThe Google Pixel team focuses on designing and delivering the world's most helpful mobile experience. The team works on shaping the future of Pixel devices and services through some of the most advanced designs, techniques, products, and experiences in consumer electronics. This includes bringing together the best of Google's artificial intelligence, software, and hardware to build global smartphones and create transformative experiences for users across the world.\n\nThe US base salary range for this full-time position is $133,000-$194,000 + bonus + equity + benefits. Our salary ranges are determined by role, level, and location. The range displayed on each job posting reflects the minimum and maximum target for new hire salaries for the position across all US locations. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Your recruiter can share more about the specific salary range for your preferred location during the hiring process. Please note that the compensation details listed in US role postings reflect the base salary only, and do not include bonus, equity, or benefits. Learn more about benefits at Google (~~~/) .\n• Write product or system development code.\n• Review code developed by other engineers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).\n• Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback.\n• Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality.\n• Participate in, or lead design reviews with peers and stakeholders to decide amongst available technologies.\n\nGoogle is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also ~~~/ and ~~~ If you have a need that requires accommodation, please let us know by completing our Accommodations for Applicants form: ",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Bachelor's degree or equivalent practical experience",
+            "2 years of experience with software development in one or more programming languages, or 1 year of experience with an advanced degree",
+            "2 years of experience with data structures or algorithms in either an academic or industry setting",
+            "We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "With your technical expertise you will manage project priorities, deadlines, and deliverables",
+            "You will design, develop, test, deploy, maintain, and enhance software solutions",
+            "Review code developed by other engineers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency)",
+            "Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback",
+            "Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "The US base salary range for this full-time position is $133,000-$194,000 + bonus + equity + benefits",
+            "Our salary ranges are determined by role, level, and location"
+          ]
+        }
+      ],
+      "related_links": [
+        {
+          "link": "http://www.google.com/",
+          "text": "google.com"
+        },
+        {
+          "link": "https://www.google.com/search?q=Google&sa=X&ved=0ahUKEwjipPz1ssWAAxXeMUQIHVVwCrgQmJACCKIK",
+          "text": "See web results for Google"
+        }
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNDBsOjXiogo6sOzNFsAhNdEqXUy-93dC_SDpq&s=0",
+      "extensions": ["3 days ago", "Full-time", "Health insurance"],
+      "detected_extensions": {
+        "posted_at": "3 days ago",
+        "schedule_type": "Full-time"
+      },
+      "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciBJSUksIE1vYmlsZSAoQW5kcm9pZCksIFBpeGVsIiwiaHRpZG9jaWQiOiJrXzJFcl94SDhNY0FBQUFBQUFBQUFBPT0iLCJmYyI6IkVxSUNDdUlCUVUxck1teHNTa3B5ZGxGemJtZFZiRXN6VWtWNGIxcFBNR3MyU1hSSGRWQTBWMkV4Y1ZoVVQwUTRVVEJRV2t4aFNUVkxNa2R0UjJaUlMyOUphSEZ3U1ZGTFgyNVhaVW8wVW5GcWRHbHpNVXRhUlc4MlJreGhPRWRoV2tkRk5UTlFUVzFDWTNwRGRtUlJkR2RqVERFM01HZ3RNVTk0UVZjNE1uZFhRMUF0T1dsamVUTlNlamc1VWtkMmVYVklNa1J0ZFRoUVp6Qk9lbHBRYUU1YVIxRnlXVEl5YlZkM1FtbzBTRWRuVTIweVQxODJjV1kwYUZKRGJHOWhNakV3U0ZKRlZYazBVVkozZVMxTVRFWktiR2hKUkU5R05raFBZWEV3Ymw5NVZuaDRaRjlNVVJJWFRIcEVUMXBMVEZKR09UZHFhMUJKVURGbFEzQjNRWE1hSWtGTVJWTTVkVTVJYTNkZmFYb3dOa3hwV1dabE1ubEpURlYzTVZWRloyMVpRbmMiLCJmY3YiOiIzIiwiZmNfaWQiOiJmY18zIiwiYXBwbHlfbGluayI6eyJ0aXRsZSI6IkFwcGx5IG9uIE5leHh0IiwibGluayI6Imh0dHBzOi8vd3d3Lm5leHh0LmNvbS9qb2JzL3NvZnR3YXJlLWVuZ2luZWVyLWlpaS1tb2JpbGUtYW5kcm9pZC1waXhlbC1tb3VudGFpbi12aWV3LWNhLTI1NjMzNDMyNTEtam9iLmh0bWw/YWZmPTJFRDQ0QzcyLThGRDItNEI1RC1CQzU0LTJGNjIzRTg4QkUyNlx1MDAyNnV0bV9jYW1wYWlnbj1nb29nbGVfam9ic19hcHBseVx1MDAyNnV0bV9zb3VyY2U9Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fbWVkaXVtPW9yZ2FuaWMifX0="
+    },
+    {
+      "title": "Senior System Software Engineer, Application Cluster",
+      "company_name": "Oski Technology",
+      "location": "  Santa Clara, CA   ",
+      "via": "via Glassdoor",
+      "description": "A key part of NVIDIA’s strength is our unique development tools and environments that enable our incredible pace of delivery new technology to market. We are looking for forward-thinking, hard-working, and creative people to join a multifaceted software team with high-production-quality standards. This software engineering role involves helping us evolve the way our private compute cloud is... architected and optimized!\n\nWhat you'll be doing:\n\nThis role will provide leadership in the design and implementation of clusters that run demanding graphics applications, GPU simulations, and other computationally costly workloads. As a member of the software development team, you will identify architectural changes and recommend innovative approaches for our application clusters. As an expert, you will develop solutions to strategic challenges we encounter including: simulation execution, GPU configuration, CI/CD, networking, and storage design for large scale, high-performance workloads, effective resource utilization in a heterogeneous compute environment, capacity modeling, and growth planning across our global computing environment.\n\nWhat we need to see:\n• Bachelor’s degree in Computer Science, Computer Engineering or related field or equivalent experience.\n• Minimum 5 years of experience designing and operating large scale compute infrastructure.\n• Experience developing software in Microsoft Windows.\n• Strong Python programming capability.\n• Experience analyzing and tuning performance for a variety of application workloads.\n\nWays to stand out from the crowd:\n• Worked with a GPU cluster in a research lab or in a public cloud (AWS, Azure, Google Cloud).\n• Experience with job schedulers such as Nomad or Slurm.\n• Hands-on experience of cluster configuration management tools like Ansible.\n• Knowledge of modern software deployment systems like Kubernetes.\n• Understanding of fast, distributed storage systems and Linux or Windows file systems.\n• Proficiency programming relational databases, like MySQL.\n\nNVIDIA offers highly competitive salaries and a comprehensive benefits package. We have some of the most brilliant and talented people in the world working for us and, due to unprecedented growth, our world-class engineering teams are growing fast. If you're a creative and autonomous engineer with real passion for technology, we want to hear from you.\n\nThe base salary range is $144,000 - $270,250. Your base salary will be determined based on your location, experience, and the pay of employees in similar positions.\nYou will also be eligible for equity and benefits\n.\n\nNVIDIA is committed to fostering a diverse work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Bachelor’s degree in Computer Science, Computer Engineering or related field or equivalent experience",
+            "Minimum 5 years of experience designing and operating large scale compute infrastructure",
+            "Experience developing software in Microsoft Windows",
+            "Strong Python programming capability",
+            "Experience analyzing and tuning performance for a variety of application workloads",
+            "Worked with a GPU cluster in a research lab or in a public cloud (AWS, Azure, Google Cloud)",
+            "Experience with job schedulers such as Nomad or Slurm",
+            "Hands-on experience of cluster configuration management tools like Ansible",
+            "Knowledge of modern software deployment systems like Kubernetes",
+            "Understanding of fast, distributed storage systems and Linux or Windows file systems",
+            "Proficiency programming relational databases, like MySQL"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "This role will provide leadership in the design and implementation of clusters that run demanding graphics applications, GPU simulations, and other computationally costly workloads",
+            "As a member of the software development team, you will identify architectural changes and recommend innovative approaches for our application clusters"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "NVIDIA offers highly competitive salaries and a comprehensive benefits package",
+            "The base salary range is $144,000 - $270,250",
+            "Your base salary will be determined based on your location, experience, and the pay of employees in similar positions",
+            "You will also be eligible for equity and benefits"
+          ]
+        }
+      ],
+      "related_links": [
+        {
+          "link": "https://www.google.com/search?q=Oski+Technology&sa=X&ved=0ahUKEwjipPz1ssWAAxXeMUQIHVVwCrgQmJACCOsK",
+          "text": "See web results for Oski Technology"
+        }
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWU581qG8uf0bVQ6DptUKK94AteXwKQ5LOECLJ61E&s",
+      "extensions": [
+        "5 days ago",
+        "144,000–270,250 a year",
+        "Full-time",
+        "Health insurance"
+      ],
+      "detected_extensions": {
+        "posted_at": "5 days ago",
+        "schedule_type": "Full-time",
+        "salary": "144,000–270,250 a year"
+      },
+      "job_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgU3lzdGVtIFNvZnR3YXJlIEVuZ2luZWVyLCBBcHBsaWNhdGlvbiBDbHVzdGVyIiwiaHRpZG9jaWQiOiJydWFZYzdGb1czQUFBQUFBQUFBQUFBPT0iLCJmYyI6IkVyY0NDdmNCUVUxck1teHNTemd4Y0ZWMmNrVXRkVFJqZFZaa2Fub3ljRlpSUkU0M2VHdENkVEpVWTNnMVVYSXdaek5pTm1aa1ZuZFBlRzlGY1RJeGJ6bFBkVnBVTUdsWmMwOWZablpHWlZkSGRIRXlaRkI1WVRWNmMwMHRjbUpzUWtKdFVHWnJWbmQ1ZUZNd2VsaDBTbXh4YjBkSGNURkZWMmxEUlZkdlduTlRjbXRQYjJKRGNUSnJWM0ZmZGxOd1kyTm1ha0pZUjBGc1UzbG1PRUozV1hsRWQxZEhiREl5UzB0dU1GSkNha1J3VFZZd2RWWkdhM2h1WkdOaVlYcERhMUJyUVRoUWNIVjRVMVZYUVU0MGJsSTJjMm96VG1oNVNXaHRSR2hNUW1aZk1YZFFVRlJ2Y0ZCaE9URnpURTg1TkZsS1NDMVNNRmRPY1ZCNVNSSVhUSHBFVDFwTFRGSkdPVGRxYTFCSlVERmxRM0IzUVhNYUlrRk1SVk01ZFU1bmFqZHBhWEo2Ym1KRmNGaEtSazVxVkhsVk4xOU1hVTR5WDJjIiwiZmN2IjoiMyIsImZjX2lkIjoiZmNfNSIsImFwcGx5X2xpbmsiOnsidGl0bGUiOiJBcHBseSBvbiBHbGFzc2Rvb3IiLCJsaW5rIjoiaHR0cHM6Ly93d3cuZ2xhc3Nkb29yLmNvbS9qb2ItbGlzdGluZy9zZW5pb3Itc3lzdGVtLXNvZnR3YXJlLWVuZ2luZWVyLWFwcGxpY2F0aW9uLWNsdXN0ZXItb3NraS10ZWNobm9sb2d5LUpWX0lDMTE0NzQzOV9LTzAsNTFfS0U1Miw2Ny5odG0/amw9MTAwODc4OTA1NjY4NFx1MDAyNnV0bV9jYW1wYWlnbj1nb29nbGVfam9ic19hcHBseVx1MDAyNnV0bV9zb3VyY2U9Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fbWVkaXVtPW9yZ2FuaWMifX0="
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company_name": "Affinity.co",
+      "location": "  San Francisco, CA   ",
+      "via": "via Greenhouse",
+      "description": "With our growing customer base and our expansion into new markets and use cases, we have more to build than ever at Affinity as we execute on our vision to put relationship intelligence at every professional's fingertips.\n\nAt the heart of the Affinity product, you’ll find a number of foundational back-end engineering challenges: everything from ingesting and processing billions of data points in... real-time, to building robust, scalable, and secure infrastructure, to supporting lightning-fast queries across large datasets. Our back end is where the magic that powers Affinity’s relationship intelligence is created and honed.\n\nAs a Senior Software Engineer, you'll have the opportunity to push our product and platform in new directions while also shaping the next iterations of the features our customers already love. From front-end usability to backend algorithms, async workers, to event-driven messaging systems, you'll hone your skills across multiple domains while helping to drive forward the Affinity product and vision.\n\nWhat you’ll be doing:\n• Own product areas that are critical to the success of our customers and our business\n• Drive the technical best practices that allow our platform to exceed its performance goals and help to increase engineering velocity\n• Work with world-class engineering, product, and design teams--you'll have the opportunity to learn from a wide variety of experiences and, of course, to share your own\n• Grow your expertise and fluency with core pieces of technology across the entire application stack\n\nQualifications\n\nDon’t meet every single requirement? Studies have shown that women and people of color are less likely to apply to jobs unless they meet every qualification. At Affinity, we are dedicated to building a diverse, inclusive, and authentic workplace, so if you’re excited about this role, but your past experience doesn’t perfectly align with the qualifications above, we encourage you to apply anyways. You may be just the right candidate for this or other roles.\n\nRequired:\n• You take pride in delivering high-quality and powerful products to customers while also championing technical excellence\n• You have 6+ years of experience as a software engineer, including familiarity with the different pieces of technology involved in building modern web applications\n• You’ve worked with a variety of web APIs and developed backend services using modern OOP practices\n• You have a strong understanding of relational or NoSQL databases and the ability to design and implement systems that scale and avoid bottlenecks\n• You've helped your teams solve high-scale challenges, integrate systems, or harden your product’s security posture\n• You're excited to work collaboratively within engineering and across functional teams\n• You’re eager to contribute your ideas and experiences to help Affinity continuously improve as a product and as a company\n\nNice to have:\n• Experience working with Ruby, PostgreSQL.\n\nTech stack\n\nOur platform is built with React and TypeScript on the front end, and with Ruby and PostgreSQL on the back end. Our infrastructure is hosted by AWS and runs on Kubernetes.\n\nWhat you'll enjoy at Affinity\n• We live our values as playmakers who are obsessed with learning, care personally about our colleagues and clients, are radically open-minded, and take pride in everything we do.\n• We pay your medical, dental, and vision insurance with comprehensive PPO and HMO plans. And provide flexible personal & sick days. We want our team to be happy and healthy :)\n• We offer a 401k plan to help you plan for retirement.\n• We provide an annual budget for you to spend on education and offer a comprehensive L&D program – after all, one of our core values is that we’re #obsessedwithlearning!\n• We support our employee’s overall health and well-being and reimburse monthly for things such as; Transportation, Home Internet, Meals, and Wellness memberships/equipment.\n• Virtual team building and socials. Keeping people connected is essential.\n\nPlease note that the role compensation details below reflect the base salary only and do not include any variable pay, equity, or benefits. This represents the salary range that Affinity believes, in good faith, at the time of this posting, that it will pay for the posted job.\n\nA reasonable estimate of the current range is $105,000 - $178,000 USD. Within the range, individual pay is determined by factors such as job-related skills, experience, and relevant education or training",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "You take pride in delivering high-quality and powerful products to customers while also championing technical excellence",
+            "You have 6+ years of experience as a software engineer, including familiarity with the different pieces of technology involved in building modern web applications",
+            "You’ve worked with a variety of web APIs and developed backend services using modern OOP practices",
+            "You have a strong understanding of relational or NoSQL databases and the ability to design and implement systems that scale and avoid bottlenecks",
+            "You've helped your teams solve high-scale challenges, integrate systems, or harden your product’s security posture",
+            "You're excited to work collaboratively within engineering and across functional teams",
+            "You’re eager to contribute your ideas and experiences to help Affinity continuously improve as a product and as a company",
+            "Experience working with Ruby, PostgreSQL"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "From front-end usability to backend algorithms, async workers, to event-driven messaging systems, you'll hone your skills across multiple domains while helping to drive forward the Affinity product and vision",
+            "Own product areas that are critical to the success of our customers and our business",
+            "Drive the technical best practices that allow our platform to exceed its performance goals and help to increase engineering velocity",
+            "Work with world-class engineering, product, and design teams--you'll have the opportunity to learn from a wide variety of experiences and, of course, to share your own",
+            "Grow your expertise and fluency with core pieces of technology across the entire application stack"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "We pay your medical, dental, and vision insurance with comprehensive PPO and HMO plans",
+            "And provide flexible personal & sick days",
+            "We offer a 401k plan to help you plan for retirement",
+            "We provide an annual budget for you to spend on education and offer a comprehensive L&D program – after all, one of our core values is that we’re #obsessedwithlearning!",
+            "We support our employee’s overall health and well-being and reimburse monthly for things such as; Transportation, Home Internet, Meals, and Wellness memberships/equipment",
+            "Virtual team building and socials",
+            "A reasonable estimate of the current range is $105,000 - $178,000 USD"
+          ]
+        }
+      ],
+      "related_links": [
+        {
+          "link": "https://www.google.com/search?q=Affinity.co&sa=X&ved=0ahUKEwjipPz1ssWAAxXeMUQIHVVwCrgQmJACCLUL",
+          "text": "See web results for Affinity.co"
+        }
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3KhkYRcUoFdwk4ptuIQHlV6bWlgxvQV3_wIpng5PO-FzT15KTkEiW&s",
+      "extensions": [
+        "Full-time",
+        "No degree mentioned",
+        "Health insurance",
+        "Dental insurance"
+      ],
+      "detected_extensions": {
+        "schedule_type": "Full-time"
+      },
+      "job_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgU29mdHdhcmUgRW5naW5lZXIiLCJodGlkb2NpZCI6Ik9zNFkxMUthRXFFQUFBQUFBQUFBQUE9PSIsImZjIjoiRXZjQkNyY0JRVTFyTW14c1NVUnpVV1l3YWs1cmNrNXFkMFUwVm5STE4wSmFNR3BYTWpnNVNqZEZNRFpXVFZkVE1WUjVZVTgzTWtKRFVXSmtTMFJOUWxkTVUwWnNWSGh3UW0xTldVczVORkF5VWkxcFgwSkhUSGRQZVZCaE1XNWlXVlI2V0dKRlQxOVNZME14YVZnNWNERnRSSFl4TjNsS0xXSXhiVFoxZG1OUVlWUXhhVFJGU0hCSk5YbzFkMHRwUW5WTGJWWkxOWFJOT0U5eVpsUlFjVEZVVlhNNFIzUjJRV1V4ZUZZNVVWTXlTV1ozY1UxT00zVkxXa000RWhkTWVrUlBXa3RNVWtZNU4ycHJVRWxRTVdWRGNIZEJjeG9pUVV4RlV6bDFUMk5UZFZGRGRYQjVRVXh3VHpaMVUxVTNORFJMZVUxMk5FSlVadyIsImZjdiI6IjMiLCJmY19pZCI6ImZjXzciLCJhcHBseV9saW5rIjp7InRpdGxlIjoiQXBwbHkgb24gR3JlZW5ob3VzZSIsImxpbmsiOiJodHRwczovL2JvYXJkcy5ncmVlbmhvdXNlLmlvL2VtYmVkL2pvYl9hcHA/Zm9yPWFmZmluaXR5XHUwMDI2dG9rZW49NTQ4MjY5NDAwM1x1MDAyNmI9aHR0cHM6Ly93d3cuYWZmaW5pdHkuY28vY29tcGFueS9jYXJlZXJzL2pvYlx1MDAyNnV0bV9jYW1wYWlnbj1nb29nbGVfam9ic19hcHBseVx1MDAyNnV0bV9zb3VyY2U9Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fbWVkaXVtPW9yZ2FuaWMifX0="
+    },
+    {
+      "title": "Staff Platform Security Software Engineer",
+      "company_name": "Tenstorrent Inc.",
+      "location": "  Santa Clara, CA   ",
+      "via": "via LinkedIn",
+      "description": "Tenstorrent is leading the industry on cutting-edge AI technology, revolutionizing performance expectations, ease of use, and cost efficiency. With AI redefining the computing paradigm, solutions must evolve to unify innovations in software models, compilers, platforms, networking, and semiconductors. Our diverse team of technologists have developed a high performance RISC-V CPU from scratch, and... share a passion for AI and a deep desire to build the best AI platform possible. We value collaboration, curiosity, and a commitment to solving hard problems. We are growing our team and looking for contributors of all seniorities.\n\nAs a Staff Platform Security Software Engineer, you will be responsible for designing and implementing robust reference implementations and components for secure computing and product security. You will work closely with our hardware and software development teams to ensure that our platform is secure from the ground up, and has all the necessary components for end-to-end solutions.\n\nResponsibilities\n• Designing and implementing secure boot, key management and firmware update mechanisms.\n• Developing and implementing secure communication protocols.\n• Designing and implementing full life cycle product management.\n• Creating and maintaining security documentation and procedures.\n• Providing guidance to development teams on secure coding practices.\n• Keeping up-to-date with the latest security threats and countermeasures.\n• Collaborating with the broader industry on standardized approaches for security solutions on RISC-V, including standard TEE environments.\n• Collaborating with third-party security experts to ensure the highest level of security for our platform.\n\nExperience & Qualifications\n• Bachelor's degree or higher in Computer Science, Computer Engineering, Electrical Engineering, or a related field, or equivalent work experience.\n• 8+ years of experience in platform security software engineering.\n• In-depth knowledge of secure boot and firmware update mechanisms.\n• In-depth knowledge of TEE and confidential computing solutions.\n• Experience developing and implementing secure communication protocols.\n• Experience conducting security assessments and risk analysis.\n• Strong coding skills in C/C++ and one or more of Python, Rust or Go.\n• Excellent communication and collaboration skills.\n• Knowledge of RISC-V architecture is a plus.\n\nWe are open to this role being remote.\n\nCompensation for all engineers at Tenstorrent ranges from $100k - $500k including base and variable compensation targets. Experience, skills, education, background and location all impact the actual offer made",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Bachelor's degree or higher in Computer Science, Computer Engineering, Electrical Engineering, or a related field, or equivalent work experience",
+            "8+ years of experience in platform security software engineering",
+            "In-depth knowledge of secure boot and firmware update mechanisms",
+            "In-depth knowledge of TEE and confidential computing solutions",
+            "Experience developing and implementing secure communication protocols",
+            "Experience conducting security assessments and risk analysis",
+            "Strong coding skills in C/C++ and one or more of Python, Rust or Go",
+            "Excellent communication and collaboration skills"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "As a Staff Platform Security Software Engineer, you will be responsible for designing and implementing robust reference implementations and components for secure computing and product security",
+            "You will work closely with our hardware and software development teams to ensure that our platform is secure from the ground up, and has all the necessary components for end-to-end solutions",
+            "Designing and implementing secure boot, key management and firmware update mechanisms",
+            "Developing and implementing secure communication protocols",
+            "Designing and implementing full life cycle product management",
+            "Creating and maintaining security documentation and procedures",
+            "Providing guidance to development teams on secure coding practices",
+            "Keeping up-to-date with the latest security threats and countermeasures",
+            "Collaborating with the broader industry on standardized approaches for security solutions on RISC-V, including standard TEE environments",
+            "Collaborating with third-party security experts to ensure the highest level of security for our platform"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Compensation for all engineers at Tenstorrent ranges from $100k - $500k including base and variable compensation targets",
+            "Experience, skills, education, background and location all impact the actual offer made"
+          ]
+        }
+      ],
+      "related_links": [
+        {
+          "link": "http://tenstorrent.com/",
+          "text": "tenstorrent.com"
+        },
+        {
+          "link": "https://www.google.com/search?q=Tenstorrent+Inc.&sa=X&ved=0ahUKEwjipPz1ssWAAxXeMUQIHVVwCrgQmJACCP4L",
+          "text": "See web results for Tenstorrent Inc."
+        }
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYbC-cHTjuJ9UaREYgxWnkQSaJLfyY3PPK9Zl3A1Q&s",
+      "extensions": ["7 days ago", "Full-time"],
+      "detected_extensions": {
+        "posted_at": "7 days ago",
+        "schedule_type": "Full-time"
+      },
+      "job_id": "eyJqb2JfdGl0bGUiOiJTdGFmZiBQbGF0Zm9ybSBTZWN1cml0eSBTb2Z0d2FyZSBFbmdpbmVlciIsImh0aWRvY2lkIjoiNHdOSS1qMWh4LVVBQUFBQUFBQUFBQT09IiwiZmMiOiJFcUlDQ3VJQlFVMXJNbXhzU2xaTFJFRXpSSEZFZDNSelNHSjVPV280VjBsYWVtZDJWM2xuVVZkaVJtaFpSM0ZsWHpFMmRtdFhXVmhWTldGSVpIVmlTM2RLU0MwM2IxTm1Za2g2YXpNekxTMXhZbFpWU1RCaE1rUlphblJrYVhJd1NFcFJhbk5FUWpobVRuVkNjalowVERKU01HaGFXVGxsVDJ4Q04xUnVlVkZPZW1GYVlURkpTSEpsUjJWTk1IQkxWekJxTUdabGRUUjJOakZOTm1kRU5rRjZVR3RRYm1sWGRYWkdNV3h3UWtrNFdHOXJVMTk2V25KS1ZWVnFTVkJDVTJkdlpVSXliMDh6VFdSMExXNHRXbkkxYTFSWlZYVXpNMlUxWm5WcGJWZEdhVE5oTkROc1p4SVhUSHBFVDFwTFRGSkdPVGRxYTFCSlVERmxRM0IzUVhNYUlrRk1SVk01ZFU5VFVsbzRlVWxTYkcxb1oxWTRWRFF3VVZKSExUZDNaM2RpWW5jIiwiZmN2IjoiMyIsImZjX2lkIjoiZmNfOCIsImFwcGx5X2xpbmsiOnsidGl0bGUiOiJBcHBseSBvbiBMaW5rZWRJbiIsImxpbmsiOiJodHRwczovL3d3dy5saW5rZWRpbi5jb20vam9icy92aWV3L3N0YWZmLXBsYXRmb3JtLXNlY3VyaXR5LXNvZnR3YXJlLWVuZ2luZWVyLWF0LXRlbnN0b3JyZW50LWluYy0zNTMyMjQwNjMwP3V0bV9jYW1wYWlnbj1nb29nbGVfam9ic19hcHBseVx1MDAyNnV0bV9zb3VyY2U9Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fbWVkaXVtPW9yZ2FuaWMifX0="
+    },
+    {
+      "title": "Staff Software Engineer",
+      "company_name": "Square",
+      "location": "  San Francisco, CA   ",
+      "via": "via Simplify",
+      "description": "Job Description\n\nCash App is a mobile-first bank that ranks in the top 10 free apps in the app store with a rapidly growing user base and feature set. Our mission is to provide banking services to all, in particular those that are underserved...\n\nCash App is built as a service mesh, communicating via synchronous APIs as well as asynchronous events, built on AWS and Kubernetes. The Developer Experience team is responsible for the day to day tools used by our 800+ engineers for building, testing and deploying their services. Our mission is to empower our product engineers to develop and iterate as quickly as possible, by providing them with the best tooling in the industry.\n\nAs a member of Cash Platform’s Developer Experience Deploy team, you’ll collaborate with our stakeholders - including product engineers to:\n• Design, build, and own tools and frameworks that provide critical support for building, testing and deploying microservices at scale across the whole organization with ease and confidence\n• Being an advocate of the CI/CD practices. Demonstrate and provide appropriate education for our stakeholders to ensure tools are used in the most effective and efficient ways\n• Dig into the many parts of a large platform using a wide variety of analytical tooling, and if necessary, to add some new ones\n• Use a data-driven approach to make the call on any new tooling that might need to be added, whether it’s off-the-shelf or built in-house\n• Partner closely with product managers, product engineers, and business leads to define our roadmap\nQualifications\n\nYou have:\n• 6+ years of industry experience\n• Natural curiosity to learn new technologies, solve interesting problems and build quality software\n• Strong desire to perform and grow as an engineer, and mentor other engineers\n• Demonstrated technical initiative and leadership\n• Bachelor’s Degree or Diploma in Computer Science, or equivalent experience\n\nTechnologies we use and teach:\n• Go, Kotlin, Terraform, Bash\n• Buildkite, CI/CD\n• AWS, Docker, Kubernetes, Gradle\n• Datadog",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "6+ years of industry experience",
+            "Natural curiosity to learn new technologies, solve interesting problems and build quality software",
+            "Strong desire to perform and grow as an engineer, and mentor other engineers",
+            "Demonstrated technical initiative and leadership",
+            "Bachelor’s Degree or Diploma in Computer Science, or equivalent experience"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "Design, build, and own tools and frameworks that provide critical support for building, testing and deploying microservices at scale across the whole organization with ease and confidence",
+            "Being an advocate of the CI/CD practices",
+            "Demonstrate and provide appropriate education for our stakeholders to ensure tools are used in the most effective and efficient ways",
+            "Dig into the many parts of a large platform using a wide variety of analytical tooling, and if necessary, to add some new ones",
+            "Use a data-driven approach to make the call on any new tooling that might need to be added, whether it’s off-the-shelf or built in-house",
+            "Partner closely with product managers, product engineers, and business leads to define our roadmap"
+          ]
+        }
+      ],
+      "related_links": [
+        {
+          "link": "http://www.block.xyz/",
+          "text": "block.xyz"
+        },
+        {
+          "link": "https://www.google.com/search?q=Square&sa=X&ved=0ahUKEwjipPz1ssWAAxXeMUQIHVVwCrgQmJACCMQM",
+          "text": "See web results for Square"
+        }
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5CTcQgthDCnCiWJKVd8rl2oNelXCG678HjU-JAmo&s",
+      "extensions": ["2 days ago", "Full-time"],
+      "detected_extensions": {
+        "posted_at": "2 days ago",
+        "schedule_type": "Full-time"
+      },
+      "job_id": "eyJqb2JfdGl0bGUiOiJTdGFmZiBTb2Z0d2FyZSBFbmdpbmVlciIsImh0aWRvY2lkIjoiYWhsS0tjdzJxY0lBQUFBQUFBQUFBQT09IiwiZmMiOiJFdmNCQ3JjQlFVMXJNbXhzU1hKV1JYTlFNVzAxY1ZwWU9HRnNVbEExTWpCa1NXcFFOMUZWUW14SE1YUkNhRkk1VnpSdVJUaDVhalZuWWpJMExYcEZOM050TTNGRk1rZGtOVmM1TlVONFZscEhiekoyYjFRM05uTnhOVU5ZWTNCUFREWmxVbTh3VUhCUVJYZHVYM2R4VWtWTExUQnpSVTV0ZVRnM1NYQm1iak15TjNSTVIxSlhObE0xYVhJNGRUVnllVkphT1c5U1NsQnpjRFJXWkRacFRWOUJhSEJ0TVhWM2VYTkdOVE4zWjJWelZWRXlNbDlwUzFsYVpVNWpFaGRNZWtSUFdrdE1Va1k1TjJwclVFbFFNV1ZEY0hkQmN4b2lRVXhGVXpsMVQyOHpiVmxJYVZSbU1FcFBiWFV5VGpod2RFRlVaREY0UldsUVp3IiwiZmN2IjoiMyIsImZjX2lkIjoiZmNfMTAiLCJhcHBseV9saW5rIjp7InRpdGxlIjoiQXBwbHkgb24gU2ltcGxpZnkiLCJsaW5rIjoiaHR0cHM6Ly9zaW1wbGlmeS5qb2JzL3AvNDcyZDJiYjUtNWM4ZC00MDlkLWI3NjgtYTE0MGI1MjRhZjQwL1N0YWZmLVNvZnR3YXJlLUVuZ2luZWVyP3V0bV9jYW1wYWlnbj1nb29nbGVfam9ic19hcHBseVx1MDAyNnV0bV9zb3VyY2U9Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fbWVkaXVtPW9yZ2FuaWMifX0="
+    },
+    {
+      "title": "Software Build Triage Engineer - Apple Vision Pro",
+      "company_name": "Apple",
+      "location": "  Cupertino, CA   ",
+      "via": "via ZipRecruiter",
+      "description": "Summary Posted: Jul 11, 2023\n\nRole Number:200474092...\n\nApple is where individual imaginations gather together, committing to the values that lead to great work. Every new product we build, service we create, or Apple Store experience we deliver is the result of us making each otherʼs ideas stronger. That happens because every one of us shares a belief that we can make something wonderful and share it with the world, changing lives for the better. Itʼs the diversity of our people and their thinking that inspires the innovation that runs through everything we do. When we bring everybody in, we can do the best work of our lives. Here, youʼll do more than join something — youʼll add something. Apple Vision Pro is a revolutionary spatial computer that seamlessly blends digital content with your physical space. It will allow us to do the things we love in ways never before possible — all while staying connected to the people around us. Apple’s Vision Products Group is looking for a highly motivated Build Triage Engineer to help drive the build and integration of software for a wide range of critical product technology teams. You will provide a key function in shaping the success of Apple’s current and future products, and help deliver exciting new software features while maintaining Apple’s world class quality.\nKey Qualifications\n• Knowledge of operating systems and compiler concepts\n• Experience developing in one or more compiled languages, including C, C++, Swift, or Objective-C\n• Proficiency in scripting languages, including Python, Javascript, Ruby or Bash\n• Proven track record of being proactive, self-motivated, and detail-oriented in a highly cross-functional environment\n• Expertise with SCM systems (git preferred), release engineering, branching strategies, pull requests, and git workflows\n• Expertise working with engineering and project management teams, demonstrating strong communication and coordination skills\n• Familiarity with scalable distributed systems, parallel workflows and microservices\n\nDescription\nVPG Build Triage Engineers are responsible for streamlining the build and integration process for highly interdependent software projects to enable high quality releases. You will be a part of a fast-paced environment with rapidly changing priorities, collaborating with software engineers and project managers to triage, diagnose, and coordinate the resolution of build issues to keep releases running smoothly. Your responsibilities will be split across build operations and development to automate tasks and improve the build process. Responsibilities of the job include: Triaging and root-causing build and test issues in continuous integration and nightly builds Writing detailed bug reports to provide engineers with information needed to reproduce and resolve issues Collaborating with developers and integrators to ensure timely resolution of failures in nightly builds Writing new tools to automate and improve and automate build triage workflows Developing improvements to automated integration, testing and deployment of software and services\n\nEducation & Experience\n3+ years of industry experience in a software build and integration or similar role. Bachelor’s degree in an engineering related field, or equivalent experience.\n\nAdditional Requirements\n\nPay & Benefits\n• At Apple, base pay is one part of our total compensation package and is determined within a range. This provides the opportunity to progress as you grow and develop within a role. The base pay range for this role is between $138,900 and $256,500, and your base pay will depend on your skills, qualifications, experience, and location.\n\nApple employees also have the opportunity to become an Apple shareholder through participation in Apple’s discretionary employee stock programs. Apple employees are eligible for discretionary restricted stock unit awards, and can purchase Apple stock at a discount if voluntarily participating in Apple’s Employee Stock Purchase Plan. You’ll also receive benefits including: Comprehensive medical and dental coverage, retirement benefits, a range of discounted products and free services, and for formal education related to advancing your career at Apple, reimbursement for certain educational expenses — including tuition. Additionally, this role might be eligible for discretionary bonuses or commission payments as well as relocation. Learn more about Apple Benefits.\n\nNote: Apple benefit, compensation and employee stock programs are subject to eligibility requirements and other terms of the applicable plan or program",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Knowledge of operating systems and compiler concepts",
+            "Experience developing in one or more compiled languages, including C, C++, Swift, or Objective-C",
+            "Proficiency in scripting languages, including Python, Javascript, Ruby or Bash",
+            "Proven track record of being proactive, self-motivated, and detail-oriented in a highly cross-functional environment",
+            "Expertise working with engineering and project management teams, demonstrating strong communication and coordination skills",
+            "Familiarity with scalable distributed systems, parallel workflows and microservices",
+            "3+ years of industry experience in a software build and integration or similar role",
+            "Bachelor’s degree in an engineering related field, or equivalent experience"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "You will provide a key function in shaping the success of Apple’s current and future products, and help deliver exciting new software features while maintaining Apple’s world class quality",
+            "VPG Build Triage Engineers are responsible for streamlining the build and integration process for highly interdependent software projects to enable high quality releases",
+            "You will be a part of a fast-paced environment with rapidly changing priorities, collaborating with software engineers and project managers to triage, diagnose, and coordinate the resolution of build issues to keep releases running smoothly",
+            "Your responsibilities will be split across build operations and development to automate tasks and improve the build process",
+            "Responsibilities of the job include: Triaging and root-causing build and test issues in continuous integration and nightly builds Writing detailed bug reports to provide engineers with information needed to reproduce and resolve issues Collaborating with developers and integrators to ensure timely resolution of failures in nightly builds Writing new tools to automate and improve and automate build triage workflows Developing improvements to automated integration, testing and deployment of software and services"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Pay & Benefits",
+            "At Apple, base pay is one part of our total compensation package and is determined within a range",
+            "The base pay range for this role is between $138,900 and $256,500, and your base pay will depend on your skills, qualifications, experience, and location",
+            "You’ll also receive benefits including: Comprehensive medical and dental coverage, retirement benefits, a range of discounted products and free services, and for formal education related to advancing your career at Apple, reimbursement for certain educational expenses — including tuition",
+            "Additionally, this role might be eligible for discretionary bonuses or commission payments as well as relocation"
+          ]
+        }
+      ],
+      "related_links": [
+        {
+          "link": "http://www.apple.com/",
+          "text": "apple.com"
+        },
+        {
+          "link": "https://www.google.com/search?q=Apple&sa=X&ved=0ahUKEwjipPz1ssWAAxXeMUQIHVVwCrgQmJACCI0N",
+          "text": "See web results for Apple"
+        }
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZVi-10H3jEAxxYsiJXrq3NdIQnlCXeJjEf64pLhpss14Q1QDj-0Il&s",
+      "extensions": ["Full-time", "Health insurance", "Dental insurance"],
+      "detected_extensions": {
+        "schedule_type": "Full-time"
+      },
+      "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBCdWlsZCBUcmlhZ2UgRW5naW5lZXIgLSBBcHBsZSBWaXNpb24gUHJvIiwiaHRpZG9jaWQiOiI3dENFdnlZTndYa0FBQUFBQUFBQUFBPT0iLCJmYyI6IkVxSUNDdUlCUVUxck1teHNTa3BsTFRCTk4zVk1jbHBvUzFrM2NDMVZVMVJLYW5KaFNEQXpObk5TU1dObFVqaElSVEY2VTBZemVFUkVZVzFVUmxkaFpIZ3dRM0Y0U0ZkNE4zRm9YelpaUkVGaFJESjZNVmRZVlhaa1lVdHNTVWhqVjFkcmJFNDFZV05SUTNVMVoyRlllRWMzY1d0ek5rNXRjRnBUY2pkVVpURXpZa2huYkZGMlRsUXRhamhDYWxWMk0xWmxjVEkwYzBsV09HaFlWMFIzV0dGSGNtcERPVVpLWWxoVWMzZEtMVFJOWlRoWlVWcDRkMjg1ZFdsM2NUaFRYMEpYWDI5UGQyeHBUbWxmVkdGM1ltaDZOM0UwVDI5M1RrcHVhbGhwTURORE56WTFabkJMWnhJWFRIcEVUMXBMVEZKR09UZHFhMUJKVURGbFEzQjNRWE1hSWtGTVJWTTVkVkJ1TWtsaFMxRnRNblJUWlRScExWQjJUMGw0VjNwNlowOWZlbEUiLCJmY3YiOiIzIiwiZmNfaWQiOiJmY18xMiIsImFwcGx5X2xpbmsiOnsidGl0bGUiOiJBcHBseSBvbiBaaXBSZWNydWl0ZXIiLCJsaW5rIjoiaHR0cHM6Ly93d3cuemlwcmVjcnVpdGVyLmNvbS9jL0FwcGxlL0pvYi9Tb2Z0d2FyZS1CdWlsZC1UcmlhZ2UtRW5naW5lZXItQXBwbGUtVmlzaW9uLVByby8taW4tQ3VwZXJ0aW5vLENBP2ppZD0wNGE3NDY3MWZlNDNlYzUyXHUwMDI2dXRtX2NhbXBhaWduPWdvb2dsZV9qb2JzX2FwcGx5XHUwMDI2dXRtX3NvdXJjZT1nb29nbGVfam9ic19hcHBseVx1MDAyNnV0bV9tZWRpdW09b3JnYW5pYyJ9fQ=="
+    },
+    {
+      "title": "Application Software Architect",
+      "company_name": "Supernal",
+      "location": "  Walnut Creek, CA   ",
+      "via": "via WJHL Jobs",
+      "description": "Supernal is at the forefront of creating emerging mobility solutions that will foster the development of human-centered cities. We are designing a completely new electric vertical take-off and landing (eVTOL) aircraft tailored to the mobility needs of future cities. This allows passengers a seamless intermodal journey that safely transports them to their final destination. We fuse research in... autonomy, robotics, aviation and services to define a new category of mobility for the world's communities. We believe in creative thinking and collaboration to help build a better mobility experience for everyone, improving people's ability to move - whether for work or play.\n\nWhat we do:\n\nThe Software Architect is responsible for the aircraft embedded avionics computer application architecture. The role collaborates with other engineering colleagues, teams, customers, and contractors to test and evaluate aircraft technologies. The embedded applications for the Supernal avionics will be based on automatic code generation from models, both for the logic and the displays. The Software Architect will help with the design of the high-level structure of the applications and the interfaces with the software infrastructure.\n\nThis position will be required to work on-site 5 days a week.\n\nWhat you can do:\n• Design and implement guidelines/procedures for the development of embedded safety-critical avionics application functions\n• Manage the technical implementation of the avionics application architecture by the software team\n• Develop requirements for the embedded applications and application architecture\n• Develop some of the embedded avionics applications\n• Assist in building a lab for the testing and integration of the avionics applications and systems\n• Work directly with simulated, laboratory, and field test data to debug the system\n• Produce documentation in support of avionics systems certification to required standards\n• Other duties as assigned\nWhat you can contribute:\n• Bachelor's degree Engineering or other related fields\n• A minimum of ten (10) years industry experience (an equivalent combination of education and experience may be considered)\n• Experience in avionics application software certification, either military or civilian\n• Experience with modeling tools (Matlab/Simulink or SCADE Suite)\n• Experience in building/using an integration test lab for avionics testing/qualification\n• Excellent analytical and problem-solving skills\n• Excellent verbal and written communication skills\n• Proactive delivery of communication and follow up\n• Excellent organizational skills and attention to detail\n• Must have the ability to independently prioritize and accomplish work within time constraints\n• Self-motivated and forward-thinking personality\nYou may also be able to contribute:\n• Master's or Ph.D. in engineering or another related field preferred\n• Ability to program with Matlab, Python, or C/C++ for tool development/modification (GUI experience is a plus)\n• Experience with civilian aircraft development processes (ARP-4754, ARP-4761, DO-178C, DO-254) a plus\n• Experience with display generation tools (any of iData, VapsXT, SCADE Display, GL Studio) a plus\nAny offer of employment is conditioned upon the successful completion of a background check. We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, citizenship, sex, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other category or class protected under applicable federal, state or local law. Individuals with disabilities may request a reasonable accommodation to participate in the job application or interview process, to perform essential job functions, and to receive other benefits and privileges of employment. Please contact us to request accommodation at:\n\nThis position may include access to certain technology and/or software source code subject to U.S. export controls laws and regulations. If an export authorization from an applicable US regulatory agency is required in connection with your employment, your employment is contingent upon Supernal's receipt of such regulatory authorization(s) and your continued compliance with all conditions and limitations pursuant to such authorization(s).\n\nBase pay offered may vary depending on skills, experience, job-related knowledge and location. This position is also eligible for a bonus as part of total compensation.\nThe pay range for this position is:\n$192,400 $289,120 USD\n\nClick HERE or visit: to view our benefits",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "A minimum of ten (10) years industry experience (an equivalent combination of education and experience may be considered)",
+            "Experience in avionics application software certification, either military or civilian",
+            "Experience with modeling tools (Matlab/Simulink or SCADE Suite)",
+            "Experience in building/using an integration test lab for avionics testing/qualification",
+            "Excellent analytical and problem-solving skills",
+            "Excellent verbal and written communication skills",
+            "Proactive delivery of communication and follow up",
+            "Excellent organizational skills and attention to detail",
+            "Must have the ability to independently prioritize and accomplish work within time constraints",
+            "Self-motivated and forward-thinking personality"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "The role collaborates with other engineering colleagues, teams, customers, and contractors to test and evaluate aircraft technologies",
+            "The embedded applications for the Supernal avionics will be based on automatic code generation from models, both for the logic and the displays",
+            "The Software Architect will help with the design of the high-level structure of the applications and the interfaces with the software infrastructure",
+            "Design and implement guidelines/procedures for the development of embedded safety-critical avionics application functions",
+            "Manage the technical implementation of the avionics application architecture by the software team",
+            "Develop requirements for the embedded applications and application architecture",
+            "Assist in building a lab for the testing and integration of the avionics applications and systems",
+            "Work directly with simulated, laboratory, and field test data to debug the system",
+            "Produce documentation in support of avionics systems certification to required standards",
+            "Other duties as assigned"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Base pay offered may vary depending on skills, experience, job-related knowledge and location",
+            "This position is also eligible for a bonus as part of total compensation",
+            "$192,400 $289,120 USD"
+          ]
+        }
+      ],
+      "related_links": [
+        {
+          "link": "https://www.google.com/search?q=Supernal&sa=X&ved=0ahUKEwjipPz1ssWAAxXeMUQIHVVwCrgQmJACCNUN",
+          "text": "See web results for Supernal"
+        }
+      ],
+      "extensions": ["23 days ago", "192K a year", "Full-time"],
+      "detected_extensions": {
+        "posted_at": "23 days ago",
+        "schedule_type": "Full-time",
+        "salary": "192K a year"
+      },
+      "job_id": "eyJqb2JfdGl0bGUiOiJBcHBsaWNhdGlvbiBTb2Z0d2FyZSBBcmNoaXRlY3QiLCJodGlkb2NpZCI6InlmMlQ2MUc1SlJjQUFBQUFBQUFBQUE9PSIsImZjIjoiRXZjQkNyY0JRVTFyTW14c1RHUmphM2g1ZUhBNVZESk5NVE5DY0Rsa2NGaFhNMHhWYzBSNWFFdzNTRmxqVEhwQmVrUlNVV2xhVTA1V1JtcEJZM0ZTVEhsbVlVdEZaMHBhU3pWT1VqSXpjVlpzU1RGWlFuVmtkWGRVTnpkS1MxODRMWFZvVGtweGJsbHFPRXBmZDNWS1RVZDNXR2RXWkRCck1EaDRVa0Z0V0RGWGF6TjVVbXhFVVhCWldHRXRjbWR2ZGtSWFR6UTFVMnR4V1dRd1pIVlRlREZvV1RsUWJGaGZiV1p0VFRjd05VcDJVRzVLTm1oelNYWkpiSGN3RWhkTWVrUlBXa3RNVWtZNU4ycHJVRWxRTVdWRGNIZEJjeG9pUVV4RlV6bDFVRlZtTkhWelpXRlRVM3AxTUhsVVdHRkpkMXBsUkc5RGNURlZkdyIsImZjdiI6IjMiLCJmY19pZCI6ImZjXzE0IiwiYXBwbHlfbGluayI6eyJ0aXRsZSI6IkFwcGx5IG9uIFdKSEwgSm9icyIsImxpbmsiOiJodHRwczovL2pvYnMud2pobC5jb20vam9icy9hcHBsaWNhdGlvbi1zb2Z0d2FyZS1hcmNoaXRlY3Qtd2FsbnV0LWNyZWVrLWNhbGlmb3JuaWEvMTA2MzMxODY2Mi0yLz91dG1fY2FtcGFpZ249Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fc291cmNlPWdvb2dsZV9qb2JzX2FwcGx5XHUwMDI2dXRtX21lZGl1bT1vcmdhbmljIn19"
+    },
+    {
+      "title": "Staff Embedded Software Engineer",
+      "company_name": "Fortinet",
+      "location": "  Sunnyvale, CA   ",
+      "via": "via Snagajob",
+      "description": "Job Description:\n\nWiFi team is looking for an Staff Embedded Software Engineer with C programming and networking knowledge to join our team...\n\nThis is a great opportunity to immerse yourself in all phases of the software development cycle to reach new product launches and feature development for our Enterprise Wireless solutions.\n\nThis position offers a large scope of experience and direct involvement with complex and innovative technology. In addition, you will be working alongside a close-knit team of experienced software developers.\n\nJob Responsibilities:\n\nDevelop Secured Enterprise Wireless products and features\n\nLinux kernel/driver development of popular Wifi chipsets\n\nWifi security protocol implementation\n\nJob Requirements:\n\nProficient C programming skill\n\nExcellent problem solving and troubleshooting skills.\n\nHave experience with Linux kernel, device driver, network and system design\n\nPassion and talent on Linux Kernel, device driver and application development\n\nHighly motivated, positive, detail oriented and responsible\n\nGood team player and good communication skills\n\n802.11, 802.1x and Enterprise Wireless solution experience is plus\n\nEducation Requirement:\n\nBachelor's Degree in Computer Science or Electrical Engineering is required Master's Degree is preferred\n\nThe US base salary range for this full-time position is $120000-$165000. Fortinet offers employees a variety of benefits, including medical, dental, vision, life and disability insurance, 401(k), 11 paid holidays, vacation time, and sick time as well as a comprehensive leave program.\n\nWage ranges are based on various factors including the labor market, job type, and job level. Exact salary offers will be determined by factors such as the candidate's subject knowledge, skill level, qualifications, experience, and geographic location.\n\nAll roles are eligible to participate in the Fortinet equity program, Bonus eligibility is reviewed at time of hire and annually at the Company's discretion.\n\n#LI-BHAVYA\n\n#GD",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Linux kernel/driver development of popular Wifi chipsets",
+            "Proficient C programming skill",
+            "Excellent problem solving and troubleshooting skills",
+            "Have experience with Linux kernel, device driver, network and system design",
+            "Passion and talent on Linux Kernel, device driver and application development",
+            "Highly motivated, positive, detail oriented and responsible",
+            "Good team player and good communication skills",
+            "802.11, 802.1x and Enterprise Wireless solution experience is plus"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": ["Develop Secured Enterprise Wireless products and features"]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "The US base salary range for this full-time position is $120000-$165000",
+            "Fortinet offers employees a variety of benefits, including medical, dental, vision, life and disability insurance, 401(k), 11 paid holidays, vacation time, and sick time as well as a comprehensive leave program",
+            "All roles are eligible to participate in the Fortinet equity program, Bonus eligibility is reviewed at time of hire and annually at the Company's discretion"
+          ]
+        }
+      ],
+      "related_links": [
+        {
+          "link": "http://www.fortinet.com/",
+          "text": "fortinet.com"
+        },
+        {
+          "link": "https://www.google.com/search?q=Fortinet&sa=X&ved=0ahUKEwjipPz1ssWAAxXeMUQIHVVwCrgQmJACCJ8O",
+          "text": "See web results for Fortinet"
+        }
+      ],
+      "extensions": [
+        "17 hours ago",
+        "61.49–112.76 an hour",
+        "Full-time",
+        "Health insurance",
+        "Dental insurance",
+        "Paid time off"
+      ],
+      "detected_extensions": {
+        "posted_at": "17 hours ago",
+        "schedule_type": "Full-time",
+        "salary": "61.49–112.76 an hour"
+      },
+      "job_id": "eyJqb2JfdGl0bGUiOiJTdGFmZiBFbWJlZGRlZCBTb2Z0d2FyZSBFbmdpbmVlciIsImh0aWRvY2lkIjoidFNndUNRcG5hZkVBQUFBQUFBQUFBQT09IiwiZmMiOiJFb3dDQ3N3QlFVMXJNbXhzU3pCV1RWZ3daekZuV2toQ2MweHVRelpYYjFnd1J6QkdObGhuV2t3MmQxWlpVa3R6TUZkMVNUbGZUbWhvTkVWUmNUTk5TbWxhTTFBd1JuVnZSM1pDUVhndE1ITklVMjVFZWtwYWIzUlpUbXBMVEUxQ1FuSlJVa2N3Y20xb1JqQjNNVUZPUlMxMFUwMTBjV1ZMWWt0bU5DMHRWR1oyUVRReU5UWjVWV2gwZFhWT2FHWlRUM3BXV0haaU1ESkhZWGhMYjJoMVVUZzBNSGh1Vms0eVNuQktiMXBRVVZCbldWZEtUekJ4T0hWV01EUTVSVGRJTlZsd1duaFpia0ZLUzI5dlNUYzRTbkptRWhkTWVrUlBXa3RNVWtZNU4ycHJVRWxRTVdWRGNIZEJjeG9pUVV4RlV6bDFUbnBMTVRObU1FcHFNa2QzWVVrM2IwdDRhRmRmZG1ReFNFeFRadyIsImZjdiI6IjMiLCJmY19pZCI6ImZjXzE1IiwiYXBwbHlfbGluayI6eyJ0aXRsZSI6IkFwcGx5IG9uIFNuYWdham9iIiwibGluayI6Imh0dHBzOi8vd3d3LnNuYWdham9iLmNvbS9qb2JzLzg1NTc0NzIzNj91dG1fY2FtcGFpZ249Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fc291cmNlPWdvb2dsZV9qb2JzX2FwcGx5XHUwMDI2dXRtX21lZGl1bT1vcmdhbmljIn19"
+    },
+    {
+      "title": "FPGA Prototyping Systems Software Engineer",
+      "company_name": "Siemens",
+      "location": "  Fremont, CA   ",
+      "via": "via JobzMall",
+      "description": "Siemens is looking for an experienced FPGA Prototyping Systems Software Engineer to join our growing team. If you are passionate about developing software for FPGA prototyping systems and have the required qualifications, we would love to hear from you!The successful candidate must possess a deep technical knowledge of FPGA prototyping software and hardware systems, including the development of... software tools, drivers and middleware for these systems. The ideal candidate will have a degree in Electrical Engineering, Computer Science, or a related field, along with a minimum of five years of experience in software development. Practical experience with FPGA prototyping, FPGA design and verification, embedded systems, or computer architecture is also essential.In addition, the successful candidate must have a proven track record of developing high quality software, as well as excellent problem solving and debugging skills. The ideal candidate will be an excellent communicator, able to convey complex technical information to a variety of audiences.If you possess these qualifications and are passionate about developing software for FPGA prototyping systems, we want to hear from you!\n\nSiemens is an Equal Opportunity Employer. We celebrate diversity and are committed to creating an inclusive environment for all employees. We do not discriminate based upon race, religion, color, national origin, sex, sexual orientation, gender identity, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "The successful candidate must possess a deep technical knowledge of FPGA prototyping software and hardware systems, including the development of software tools, drivers and middleware for these systems",
+            "The ideal candidate will have a degree in Electrical Engineering, Computer Science, or a related field, along with a minimum of five years of experience in software development",
+            "Practical experience with FPGA prototyping, FPGA design and verification, embedded systems, or computer architecture is also essential.In addition, the successful candidate must have a proven track record of developing high quality software, as well as excellent problem solving and debugging skills",
+            "The ideal candidate will be an excellent communicator, able to convey complex technical information to a variety of audiences.If you possess these qualifications and are passionate about developing software for FPGA prototyping systems, we want to hear from you!"
+          ]
+        }
+      ],
+      "related_links": [
+        {
+          "link": "https://www.google.com/search?q=Siemens&sa=X&ved=0ahUKEwjipPz1ssWAAxXeMUQIHVVwCrgQmJACCN8O",
+          "text": "See web results for Siemens"
+        }
+      ],
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsYkR06hb5TXgJM45uM4xbhJ67ebPS-Lm6GLA4G58&s",
+      "extensions": ["Full-time"],
+      "detected_extensions": {
+        "schedule_type": "Full-time"
+      },
+      "job_id": "eyJqb2JfdGl0bGUiOiJGUEdBIFByb3RvdHlwaW5nIFN5c3RlbXMgU29mdHdhcmUgRW5naW5lZXIiLCJodGlkb2NpZCI6IjNNSnpzY05mRlA0QUFBQUFBQUFBQUE9PSIsImZjIjoiRW93Q0Nzd0JRVTFyTW14c1RHaHpja3BOUTJGMlF6aE5PWEl3UlVkeE16SjRORGgzY2xBMFkwZFBNWGRrVG5FMmRHTlJkVWhKY1UxaWNqZHFNakJDVTAxNGVVRnFhbGRMUm10eU5VcFZWR05KY21oNk1VaHBiRGxvZDNreVZXUnZUMkZCVkdsWU1saE5lVGQ2TmtveWRHOWliSEY1WDFwU2RpMWhUbmt4ZG1WNVdVSnBkMUYyVUVSSGRGODJOVEJxT0ROcVIzcFVWRk5wVlVoMVQzQmxjbFp5WTFWdk1GUjVkbVZNUW1sdk0yODBRMmRxUWt0U1pXVk5WQzFyWVMxd1NWRmlZWFEwU1VWMWJtZ3dkMXBYVGtJdEVoZE1la1JQV2t0TVVrWTVOMnByVUVsUU1XVkRjSGRCY3hvaVFVeEZVemwxVFU4MlpGRTNkWFF5UVVGcE0yVmhZbWxVTUdscmNIcElUR2RSVVEiLCJmY3YiOiIzIiwiZmNfaWQiOiJmY18xNyIsImFwcGx5X2xpbmsiOnsidGl0bGUiOiJBcHBseSBkaXJlY3RseSBvbiBKb2J6TWFsbCIsImxpbmsiOiJodHRwczovL3d3dy5qb2J6bWFsbC5jb20vc2llbWVucy9qb2IvZnBnYS1wcm90b3R5cGluZy1zeXN0ZW1zLXNvZnR3YXJlLWVuZ2luZWVyP3V0bV9jYW1wYWlnbj1nb29nbGVfam9ic19hcHBseVx1MDAyNnV0bV9zb3VyY2U9Z29vZ2xlX2pvYnNfYXBwbHlcdTAwMjZ1dG1fbWVkaXVtPW9yZ2FuaWMifX0="
+    }
+  ],
+  "chips": [
+    {
+      "type": "Title",
+      "param": "job_family_1",
+      "options": [
+        {
+          "text": "All"
+        },
+        {
+          "text": "Software engineer",
+          "value": "software engineer"
+        },
+        {
+          "text": "Engineer",
+          "value": "engineer"
+        },
+        {
+          "text": "Software architect",
+          "value": "software architect"
+        },
+        {
+          "text": "Asset management",
+          "value": "asset management"
+        },
+        {
+          "text": "Engineering manager",
+          "value": "engineering manager"
+        },
+        {
+          "text": "Director",
+          "value": "director"
+        },
+        {
+          "text": "Development engineer",
+          "value": "development engineer"
+        },
+        {
+          "text": "Manager",
+          "value": "manager"
+        },
+        {
+          "text": "Senior",
+          "value": "senior"
+        },
+        {
+          "text": "Software engineering",
+          "value": "software engineering"
+        },
+        {
+          "text": "Development manager",
+          "value": "development manager"
+        },
+        {
+          "text": "Test engineer",
+          "value": "test engineer"
+        },
+        {
+          "text": "Design engineer",
+          "value": "design engineer"
+        },
+        {
+          "text": "Dev engineer",
+          "value": "dev engineer"
+        },
+        {
+          "text": "Engineer senior",
+          "value": "engineer senior"
+        },
+        {
+          "text": "Senior manager",
+          "value": "senior manager"
+        },
+        {
+          "text": "Software engineers",
+          "value": "software engineers"
+        },
+        {
+          "text": "Staff engineer",
+          "value": "staff engineer"
+        },
+        {
+          "text": "Systems engineer",
+          "value": "systems engineer"
+        },
+        {
+          "text": "Analyst",
+          "value": "analyst"
+        },
+        {
+          "text": "Application architect",
+          "value": "application architect"
+        },
+        {
+          "text": "Asset manager",
+          "value": "asset manager"
+        },
+        {
+          "text": "Automation engineer",
+          "value": "automation engineer"
+        },
+        {
+          "text": "Consultant",
+          "value": "consultant"
+        },
+        {
+          "text": "Contractor",
+          "value": "contractor"
+        },
+        {
+          "text": "Contracts manager",
+          "value": "contracts manager"
+        },
+        {
+          "text": "Engineer manager",
+          "value": "engineer manager"
+        },
+        {
+          "text": "Engineering",
+          "value": "engineering"
+        },
+        {
+          "text": "Engineers",
+          "value": "engineers"
+        },
+        {
+          "text": "Group leader",
+          "value": "group leader"
+        },
+        {
+          "text": "Infrastructure",
+          "value": "infrastructure"
+        },
+        {
+          "text": "Management engineer",
+          "value": "management engineer"
+        },
+        {
+          "text": "Network engineer",
+          "value": "network engineer"
+        },
+        {
+          "text": "Operations",
+          "value": "operations"
+        },
+        {
+          "text": "Patent attorney",
+          "value": "patent attorney"
+        },
+        {
+          "text": "Principal engineer",
+          "value": "principal engineer"
+        },
+        {
+          "text": "Principal technical",
+          "value": "principal technical"
+        },
+        {
+          "text": "Qa analyst",
+          "value": "qa analyst"
+        },
+        {
+          "text": "Quality coordinator",
+          "value": "quality coordinator"
+        },
+        {
+          "text": "Release manager",
+          "value": "release manager"
+        },
+        {
+          "text": "Scrum master",
+          "value": "scrum master"
+        },
+        {
+          "text": "Security specialist",
+          "value": "security specialist"
+        },
+        {
+          "text": "Software tester",
+          "value": "software tester"
+        },
+        {
+          "text": "Sr specialist",
+          "value": "sr specialist"
+        },
+        {
+          "text": "Sr. engineer",
+          "value": "sr. engineer"
+        },
+        {
+          "text": "Support specialist",
+          "value": "support specialist"
+        },
+        {
+          "text": "Systems architect",
+          "value": "systems architect"
+        },
+        {
+          "text": "Technical consultant",
+          "value": "technical consultant"
+        },
+        {
+          "text": "Technical leader",
+          "value": "technical leader"
+        },
+        {
+          "text": "Technical specialist",
+          "value": "technical specialist"
+        },
+        {
+          "text": "Technology specialist",
+          "value": "technology specialist"
+        },
+        {
+          "text": "Trainee",
+          "value": "trainee"
+        }
+      ]
+    },
+    {
+      "type": "Location",
+      "param": "city",
+      "options": [
+        {
+          "text": "All"
+        },
+        {
+          "text": "San Francisco, CA",
+          "value": "IQBpAG2ahYD_rXbwZxNQSg=="
+        },
+        {
+          "text": "Annapolis Junction, MD",
+          "value": "zW-xYyLnt4mqAms5YL-SKQ=="
+        },
+        {
+          "text": "New York, NY",
+          "value": "Owg_06VPwoli_nfhBo8LyA=="
+        },
+        {
+          "text": "Seattle, WA",
+          "value": "VTPokywQkFSa1URpRmUlEA=="
+        },
+        {
+          "text": "Redmond, WA",
+          "value": "I-4AIK0MkFTyBNjF6pADXg=="
+        },
+        {
+          "text": "San Diego, CA",
+          "value": "Sx6SrQ9T2YB53xX9_SE6DQ=="
+        },
+        {
+          "text": "Sunnyvale, CA",
+          "value": "O13QqUW2j4Ciw3zdJvuNdg=="
+        },
+        {
+          "text": "Austin, TX",
+          "value": "LwPMoJm1RIZ61WnUS0abXQ=="
+        },
+        {
+          "text": "Chicago, IL",
+          "value": "7cv00DwsDogAwMAJrabgrw=="
+        },
+        {
+          "text": "Minneapolis, MN",
+          "value": "vbt3k5Azs1IH7novhMmfkw=="
+        },
+        {
+          "text": "Annapolis, MD",
+          "value": "1S9ncGX2t4lLJ6jT_VT4Qw=="
+        },
+        {
+          "text": "Atlanta, GA",
+          "value": "jQmTaV0E9YgLYwuZL97-Zg=="
+        },
+        {
+          "text": "Boston, MA",
+          "value": "GzE9DS1l44mg6GIBJL98eA=="
+        },
+        {
+          "text": "Cupertino, CA",
+          "value": "q3fTG1e0j4C0eOGj4T9NOQ=="
+        },
+        {
+          "text": "Denver, CO",
+          "value": "zxcfI6qAa4fWNoon-PSOEQ=="
+        },
+        {
+          "text": "Huntsville, AL",
+          "value": "jYmizWdrYohrVgTIiX4smg=="
+        },
+        {
+          "text": "Los Angeles, CA",
+          "value": "E9on3F3HwoD0CEYlb98v4g=="
+        },
+        {
+          "text": "Mountain View, CA",
+          "value": "iQHsW0m3j4Cbr2tGStQXfA=="
+        },
+        {
+          "text": "Santa Clara, CA",
+          "value": "k8EIXIG3j4DAv8CjfKR15A=="
+        },
+        {
+          "text": "Baltimore, MD",
+          "value": "t4P01q4DyIlY5yNCqJZIBA=="
+        },
+        {
+          "text": "Dallas, TX",
+          "value": "S5dFe_cZTIaPZ0f2pJvsuQ=="
+        },
+        {
+          "text": "Fremont, CA",
+          "value": "98rot0a_j4DUiNiJOzHaig=="
+        },
+        {
+          "text": "Houston, TX",
+          "value": "AYWNSLS4QIY7BWXz3gINyg=="
+        },
+        {
+          "text": "Jacksonville, FL",
+          "value": "66_O8Ra35Yjix_yWOH3NxA=="
+        },
+        {
+          "text": "McLean, VA",
+          "value": "O3mKsew1tonx6vqtXrpijg=="
+        },
+        {
+          "text": "Orlando, FL",
+          "value": "d7zN_thz54iev6U8BrLDCg=="
+        },
+        {
+          "text": "Remote, OR",
+          "value": "Xd1PcUdfxFT6HfQNXR_RRw=="
+        },
+        {
+          "text": "Reston, VA",
+          "value": "5WUWJkdAtomfrnGo6K_fYw=="
+        },
+        {
+          "text": "Albany, NY",
+          "value": "S_tPzDQK3onEKOegEmOh4Q=="
+        },
+        {
+          "text": "Albuquerque, NM",
+          "value": "e4MJ090KIof99tm4zvjTwA=="
+        },
+        {
+          "text": "Aurora, CO",
+          "value": "myu6IoZYbId45qKLaOBBhA=="
+        },
+        {
+          "text": "Baton Rouge, LA",
+          "value": "y3RfMmc4JIYdmleR2_EjIQ=="
+        },
+        {
+          "text": "Bellevue, WA",
+          "value": "QWCmo89rkFRlB9DqglTPug=="
+        },
+        {
+          "text": "Beverly, MA",
+          "value": "l3tm6msW44lOoW-weqO3xw=="
+        },
+        {
+          "text": "Boise, ID",
+          "value": "nbRH6XLxrlSbnWc2m5hbmg=="
+        },
+        {
+          "text": "Charleston, WV",
+          "value": "OV0UiM4sT4gLG8kER6hhdg=="
+        },
+        {
+          "text": "Charlotte, NC",
+          "value": "gRo4_MQfVIhk0UO_5lBGiA=="
+        },
+        {
+          "text": "Colorado Springs, CO",
+          "value": "K9LmoS5BE4cTa-j1kuuOQQ=="
+        },
+        {
+          "text": "El Segundo, CA",
+          "value": "rTzSGUexwoC22Yu8x2IFjA=="
+        },
+        {
+          "text": "Fairfax, VA",
+          "value": "zZFLOZZOtolAhkSF5yYjBw=="
+        },
+        {
+          "text": "Herndon, VA",
+          "value": "Q6ZdDwY4tol9NWwctSKAkg=="
+        },
+        {
+          "text": "Jackson, MS",
+          "value": "IRt0kH8rKIagOPBB5M0TBw=="
+        },
+        {
+          "text": "Las Vegas, NV",
+          "value": "0X31pIK3voCjebPV5tXMOg=="
+        },
+        {
+          "text": "Linthicum Heights, MD",
+          "value": "J9uwpJjit4ngAaPYxcmQdQ=="
+        },
+        {
+          "text": "Phoenix, AZ",
+          "value": "y3mhUO0SK4esG0o1-MdpjA=="
+        },
+        {
+          "text": "San Jose, CA",
+          "value": "9T_5iuTKj4B7cZ_KCoyduQ=="
+        },
+        {
+          "text": "Scottsdale, AZ",
+          "value": "lyx3p9kIK4cY5o8YEuTSJg=="
+        },
+        {
+          "text": "St. Louis, MO",
+          "value": "-Y7t-qm02Idb4Lsiyuo5vg=="
+        },
+        {
+          "text": "Tallahassee, FL",
+          "value": "U0sSh1GK7Ij4sf3Uegfu6w=="
+        },
+        {
+          "text": "Tampa, FL",
+          "value": "4dG5s4K3wohjtJaviRNfpw=="
+        },
+        {
+          "text": "Washington, DC",
+          "value": "W-T2Wt7Gt4kqXYjUIkVSwg=="
+        },
+        {
+          "text": "Aberdeen Proving Ground, MD",
+          "value": "KbNtG83Bx4k4Bv9eIdQTUA=="
+        },
+        {
+          "text": "Aberdeen, SD",
+          "value": "t_FLNpFE0lI1rMfP8-tQMA=="
+        }
+      ]
+    },
+    {
+      "type": "Date posted",
+      "param": "date_posted",
+      "options": [
+        {
+          "text": "All"
+        },
+        {
+          "text": "Past day",
+          "value": "today"
+        },
+        {
+          "text": "Past 3 days",
+          "value": "3days"
+        },
+        {
+          "text": "Past week",
+          "value": "week"
+        },
+        {
+          "text": "Past month",
+          "value": "month"
+        }
+      ]
+    },
+    {
+      "type": "Requirements",
+      "param": "requirements",
+      "options": [
+        {
+          "text": "All"
+        },
+        {
+          "text": "No degree",
+          "value": "no_degree"
+        },
+        {
+          "text": "No experience",
+          "value": "no_experience"
+        },
+        {
+          "text": "Under 3 years of experience",
+          "value": "years3under"
+        },
+        {
+          "text": "3+ years of experience",
+          "value": "years3plus"
+        }
+      ]
+    },
+    {
+      "type": "Type",
+      "param": "employment_type",
+      "options": [
+        {
+          "text": "All"
+        },
+        {
+          "text": "Full-time",
+          "value": "FULLTIME"
+        },
+        {
+          "text": "Contractor",
+          "value": "CONTRACTOR"
+        },
+        {
+          "text": "Part-time",
+          "value": "PARTTIME"
+        },
+        {
+          "text": "Internship",
+          "value": "INTERN"
+        }
+      ]
+    },
+    {
+      "type": "Company type",
+      "param": "industry.id",
+      "options": [
+        {
+          "text": "All"
+        },
+        {
+          "text": "Manufacturing",
+          "value": "/business/naics2007/31"
+        },
+        {
+          "text": "Information",
+          "value": "/business/naics2007/51"
+        },
+        {
+          "text": "Computer Services",
+          "value": "/business/naics2007/5415"
+        },
+        {
+          "text": "Finance",
+          "value": "/business/naics2007/52"
+        },
+        {
+          "text": "Engineering Services",
+          "value": "/business/naics2007/5413"
+        },
+        {
+          "text": "Retail",
+          "value": "/business/naics2007/44"
+        },
+        {
+          "text": "Health Care",
+          "value": "/business/naics2007/62"
+        },
+        {
+          "text": "Consulting",
+          "value": "/business/naics2007/5416"
+        },
+        {
+          "text": "Logistics",
+          "value": "/business/naics2007/48"
+        },
+        {
+          "text": "Staffing",
+          "value": "/business/naics2007/5613"
+        },
+        {
+          "text": "Construction",
+          "value": "/business/naics2007/23"
+        },
+        {
+          "text": "Utilities",
+          "value": "/business/naics2007/22"
+        },
+        {
+          "text": "Wholesale",
+          "value": "/business/naics2007/42"
+        },
+        {
+          "text": "Education",
+          "value": "/business/naics2007/61"
+        },
+        {
+          "text": "Research",
+          "value": "/business/naics2007/5417"
+        },
+        {
+          "text": "Professional Services",
+          "value": "/business/naics2007/5419"
+        },
+        {
+          "text": "Professional, Scientific, and Technical Services",
+          "value": "/business/naics2007/54"
+        },
+        {
+          "text": "Restaurant",
+          "value": "/business/naics2007/722"
+        },
+        {
+          "text": "Textiles & Apparel",
+          "value": "/business/naics2007/313"
+        },
+        {
+          "text": "Travel",
+          "value": "/business/naics2007/5615"
+        },
+        {
+          "text": "Waste Management",
+          "value": "/business/naics2007/562"
+        }
+      ]
+    },
+    {
+      "type": "Employer",
+      "param": "organization_mid",
+      "options": [
+        {
+          "text": "All"
+        },
+        {
+          "text": ".S003Ke{flex:none}.ZoN4Lb{color:rgba(0,0,0,.54)}.nAXVG{color:#70757a}.IxQsL{color:rgba(0,0,0,.26)}.xFO1De{color:#fff}.ooFpK{color:rgba(255,255,255,.30)}.mtnwac{color:#4285f4}.WxeeKb{color:#34a853}.hIVRU{color:#f29900}.EXaTMc{color:#fbbc04}.sxn46d{color:#000}.gqMTF{color:#1a73e8}.zpn8Mb{color:#d93025}.HttSvd{color:#202124}.k9T6Hc{color:#1558d6}",
+          "value": "e"
+        },
+        {
+          "text": "Leidos",
+          "value": "/m/01h2kg"
+        },
+        {
+          "text": "Boeing",
+          "value": "/m/0178g"
+        },
+        {
+          "text": "Fidelity Investments",
+          "value": "/m/028q26"
+        },
+        {
+          "text": "Amazon",
+          "value": "/m/0mgkg"
+        },
+        {
+          "text": "Northrop Grumman",
+          "value": "/m/01frpd"
+        },
+        {
+          "text": "Apple",
+          "value": "/m/0k8z"
+        },
+        {
+          "text": "Meta",
+          "value": "/m/0hmyfsv"
+        },
+        {
+          "text": "Microsoft",
+          "value": "/m/04sv4"
+        },
+        {
+          "text": "Walmart",
+          "value": "/m/0841v"
+        },
+        {
+          "text": "Actalent",
+          "value": "/g/11rsrhnd_x"
+        },
+        {
+          "text": "Amazon.com Services LLC",
+          "value": "/g/11f00sjtl5"
+        },
+        {
+          "text": "Capital One",
+          "value": "/m/04c_q_"
+        },
+        {
+          "text": "Lockheed Martin",
+          "value": "/m/0hkqn"
+        },
+        {
+          "text": "Peraton",
+          "value": "/g/11g9mq8fj6"
+        },
+        {
+          "text": "Wells Fargo",
+          "value": "/m/01kdws"
+        },
+        {
+          "text": "Acclaim Technical Services",
+          "value": "/g/11f018qhw6"
+        },
+        {
+          "text": "Bloomberg",
+          "value": "/m/027sm6"
+        },
+        {
+          "text": "CACI",
+          "value": "/m/0310bt"
+        },
+        {
+          "text": "Contract Professionals, Inc.",
+          "value": "/g/11g703t8fk"
+        },
+        {
+          "text": "Deloitte",
+          "value": "/m/02spfd"
+        },
+        {
+          "text": "FIS",
+          "value": "/m/027_qkq"
+        },
+        {
+          "text": "Humana",
+          "value": "/m/033th4"
+        },
+        {
+          "text": "Insight Global",
+          "value": "/m/0b773zq"
+        },
+        {
+          "text": "Jacobs",
+          "value": "/m/0992r2"
+        },
+        {
+          "text": "L3Harris Technologies",
+          "value": "/g/11fm6fqq8c"
+        },
+        {
+          "text": "Oracle",
+          "value": "/m/05njw"
+        },
+        {
+          "text": "Philips",
+          "value": "/m/05w3y"
+        },
+        {
+          "text": "Prime Therapeutics",
+          "value": "/m/02x4r1r"
+        },
+        {
+          "text": "Rocket Software, Inc.",
+          "value": "/m/0jdsbkq"
+        },
+        {
+          "text": "S&P Global",
+          "value": "/m/02_nl4"
+        },
+        {
+          "text": "SMX Corporation",
+          "value": "/g/11hzpcm3n6"
+        },
+        {
+          "text": "SpaceX",
+          "value": "/m/03fkyw"
+        },
+        {
+          "text": "Square",
+          "value": "/m/0by16yq"
+        },
+        {
+          "text": "Sunrun",
+          "value": "/m/04gr0b4"
+        },
+        {
+          "text": "Uline",
+          "value": "/m/0bs4ty9"
+        },
+        {
+          "text": "Upwork",
+          "value": "/m/02pzh5d"
+        },
+        {
+          "text": "Abbot",
+          "value": "/m/02gkg4"
+        },
+        {
+          "text": "Akina, Inc.",
+          "value": "/g/11hdvssl79"
+        },
+        {
+          "text": "Ansys",
+          "value": "/m/06dplm"
+        },
+        {
+          "text": "Applied Intuition",
+          "value": "/g/11gn252cpl"
+        },
+        {
+          "text": "Arrow International",
+          "value": "/g/11f01hxj8z"
+        },
+        {
+          "text": "Audible, Inc.",
+          "value": "/m/05z2gj"
+        },
+        {
+          "text": "Auterion",
+          "value": "/g/11gglvhqc9"
+        }
+      ]
+    }
+  ]
+}

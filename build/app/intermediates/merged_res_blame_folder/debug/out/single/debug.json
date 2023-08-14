@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.example.job_search_app-merged_res-36:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.job_search_app-main-29:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.job_search_app-merged_res-36:/drawable-v21_launch_background.xml.flat",
+        "source": "com.example.job_search_app-main-29:/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "com.example.job_search_app-merged_res-36:/mipmap-hdpi_launcher_icon.png.flat",
+        "source": "com.example.job_search_app-main-29:/mipmap-hdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.example.job_search_app-merged_res-36:/mipmap-xxhdpi_launcher_icon.png.flat",
+        "source": "com.example.job_search_app-main-29:/mipmap-xxhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.example.job_search_app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.job_search_app-main-29:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.job_search_app-merged_res-36:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.job_search_app-main-29:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.job_search_app-merged_res-36:/mipmap-xxxhdpi_launcher_icon.png.flat",
+        "source": "com.example.job_search_app-main-29:/mipmap-xxxhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.example.job_search_app-merged_res-36:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.job_search_app-main-29:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.job_search_app-merged_res-36:/mipmap-xhdpi_launcher_icon.png.flat",
+        "source": "com.example.job_search_app-main-29:/mipmap-xhdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.example.job_search_app-merged_res-36:/mipmap-mdpi_launcher_icon.png.flat",
+        "source": "com.example.job_search_app-main-29:/mipmap-mdpi/launcher_icon.png"
+    },
+    {
+        "merged": "com.example.job_search_app-merged_res-36:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.job_search_app-main-29:/mipmap-hdpi/ic_launcher.png"
+    }
+]
